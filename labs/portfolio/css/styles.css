@@ -47,6 +47,7 @@ nav a:hover {
 
 #me {
     float: left;
+    margin-left:50px;
 }
 
 #welcomeText {
@@ -102,3 +103,4 @@ h1 {
     background: pink;
     position: relative;
 }
+

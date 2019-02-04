@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <title>Practice 1</title>
+
+    <style>
+        /*img{*/
+
+        /*     border-radius: 25px 0px 0px 0px;*/
+
+        /*}*/
+
+        .spring {
+            border-radius: 25px 0px 0px 0px;
+            transition: transform .2s;
+            /* Animation */
+            margin: 0 auto;
+        }
+        
+        .spring:hover {
+            transform: scale(1.4);
+        }
+
+        .summer {
+            border-radius: 0px 25px 0px 0px;
+            transition: transform .2s;
+            /* Animation */
+            margin: 0 auto;
+        }
+        
+        .summer:hover {
+            transform: scale(1.4);
+        }
+
+        .fall {
+            border-radius: 0px 0px 0px 25px;
+            transition: transform .2s;
+            /* Animation */
+            margin: 0 auto;
+        }
+        
+        .fall:hover {
+            transform: scale(1.4);
+        }
+
+        .winter {
+            border-radius: 0px 0px 25px 0px;
+            transition: transform .2s;
+            /* Animation */
+            margin: 0 auto;
+        }
+        
+        .winter:hover {
+            transform: scale(1.4);
+        }
+
+        .cell {
+            width: 300px;
+            height: 300px;
+            border: solid 1px black;
+            background-color: black;
+            margin: auto;
+        }
+
+
+        #row1 {
+            display: flex;
+
+        }
+
+        #row2 {
+            display: flex;
+
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 4em;
+            margin-bottom: 0px;
+            text-align: center;
+            color: yellow;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-size:1.4em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>The Seasons</h1>
+    </header>
+
+    <div id="row1">
+
+        <div class="cell">
+            <a href="https://en.wikipedia.org/wiki/Spring_(season)">
+            <img class="spring" src="img/spring.png" alt="spring"/>
+            </a>
+            <p>Spring</p>
+        </div>
+
+        <div class="cell">
+            <a href="https://en.wikipedia.org/wiki/Summer">
+            <img class="summer" src="img/summer.png" alt="summer" />
+            </a>
+            <p>Summer</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div id="row2">
+
+        <div class="cell">
+            <a href="https://en.wikipedia.org/wiki/Autumn">
+            <img class="fall" src="img/fall.png" alt="fall" />
+            </a>
+            <p>Fall</p>
+        </div>
+
+        <div class="cell">
+            <a href="https://en.wikipedia.org/wiki/Winter">
+            <img class="winter" src="img/winter.jpeg" alt="winter" />
+            </a>
+            <p>Winter</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
