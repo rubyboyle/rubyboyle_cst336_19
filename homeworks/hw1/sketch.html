@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creating SVGs With React</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" types "text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="img/svgtoreact.png" />
+        </header>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Home</a>
+          <a href="sketch.html" class="active">Sketch</a>
+          <a href="svgs.html">SVGs</a>
+          <a href="react.html">React</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <content>
+            <section>
+                <h2>Sketch</h2>
+            </section>
+            
+            <div class="row">
+              <div class="column2">
+                <img src="img/svgex.png" style="width:100%; background-color:#ea6c00;"/>
+              </div>
+              <div class="column2" style="padding-left:20px;">
+                
+                <p>If you are working in Sketch, create a new 
+                artboard with the graphic you want to export or create 
+                a new file with just the graphic. Make 
+                sure you keep a copy of the original graphic in case 
+                you want to change the design later.</p>
+                
+                <button class="button"><a href="https://medium.com/sketch-app-sources/designing-for-code-svgs-496050dae1a6"><span>Source</span></a></button>
+              </div>
+            </div>
+        </content>
+    </main>
+
+
+
+</body>
+
+</html>

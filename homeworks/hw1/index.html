@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creating SVGs With React from Sketch</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" types "text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="img/svgtoreact.png" />
+        </header>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+          <a href="sketch.html">Sketch</a>
+          <a href="svgs.html">SVGs</a>
+          <a href="react.html">React</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <content>
+            <section>
+                <h2>Creating SVGs With React from Sketch</h2>
+            </section>
+            
+            <div class="row">
+              <div class="column" style="background-color:#dc6804; margin-right:10px; margin-left:10px;">
+                <h2>Sketch</h2>
+                <p>Sketch is a digital design app,it can use it for UI, mobile, web and even icon design. </p>
+              </div>
+              <div class="column" style="background-color:#ea6c00;">
+                <h2>SVGs</h2>
+                <p>A file with the SVG file extension is a Scalable Vector Graphics file. 
+                   Files in this format use an XML-based text to describe how the image should appear.</p>
+              </div>
+              <div class="column" style="background-color:#dc6804;margin-right:10px; margin-left:10px;">
+                <h2>React</h2>
+                <p>React is a declarative JavaScript library for building UIs.
+                   It lets you compose complex UIs from small and isolated pieces of code called components.</p>
+              </div>
+            </div>
+        </content>
+    </main>
+
+
+
+</body>
+
+</html>
