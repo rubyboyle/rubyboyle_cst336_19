@@ -3,62 +3,59 @@
 
 <head>
   <meta charset="utf-8" />
-    <title>Creating SVGs With React</title>
+  <title>Creating SVGs With React</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" types ="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
         x.className += " responsive";
-      } else {
+      }
+      else {
         x.className = "topnav";
       }
     }
-    </script>
+  </script>
 </head>
 
 <body>
-    <main>
-        <header>
-            <img src="img/svgtoreact.png" alt="svglogo"/>
-        </header>
-        <div class="topnav" id="myTopnav">
-          <a href="index.html">Home</a>
-          <a href="sketch.html">Sketch</a>
-          <a href="svgs.html" class="active">SVGs</a>
-          <a href="react.html">React</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <main>
+    <header>
+      <img src="img/svgtoreact.png" alt="svglogo" />
+    </header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="sketch.html">Sketch</a>
+      <a href="svgs.html" class="active">SVGs</a>
+      <a href="react.html">React</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
+    </div>
+
+    <content>
+      <section>
+        <h2>Scalable Vector Graphics (SVG)</h2>
+      </section>
+
+      <div class="row">
+        <div class="column2">
+          <img src="img/svgcode.png" style="width:100%; background-color:#ea6c00;" alt="svglogo" />
         </div>
-        
-        <content>
-            <section>
-                <h2>Scalable Vector Graphics (SVG)</h2>
-            </section>
-            
-            <div class="row">
-              <div class="column2">
-                <img src="img/svgcode.png" style="width:100%; background-color:#ea6c00;" alt="svglogo"/>
-              </div>
-              <div class="column2" style="padding-left:20px;">
-                
-                <p>Sketch adds a bunch of excess markup that you can remove. 
-                You should end up with something like the code to the left. 
-                Note addition classNames to the bounding box, 
-                and the heart path itself. This will target these 
-                shapes directly in CSS later when I want to change the 
-                color on hover.</p>
-                
-                <button class="button"><a href="https://blog.prototypr.io/tutorial-how-to-use-svgs-from-sketch-in-react-78fd342e7f4a"><span>Source</span></a></button>
-              </div>
-            </div>
-        </content>
-    </main>
+        <div class="column2" style="padding-left:20px;">
+
+          <p>Sketch adds a bunch of excess markup that you can remove. You should end up with something like the code to the left. Note addition classNames to the bounding box, and the heart path itself. This will target these shapes directly in CSS later
+            when I want to change the color on hover.</p>
+
+          <button class="button"><a href="https://blog.prototypr.io/tutorial-how-to-use-svgs-from-sketch-in-react-78fd342e7f4a"><span>Source</span></a></button>
+        </div>
+      </div>
+    </content>
+  </main>
 
 
 

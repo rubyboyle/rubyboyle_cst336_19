@@ -1,28 +1,28 @@
         html,
         body {
-            width: 100%;
-            height: 100%;
+          width: 100%;
+          height: 100%;
         }
 
         header img {
-            width: 100%;
+          width: 100%;
         }
 
         h2 {
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
         }
-        
+
         body {
           margin: 0;
           font-family: 'Roboto', sans-serif;
         }
-        
+
         .topnav {
           overflow: hidden;
           background-color: #333;
         }
-        
+
         .topnav a {
           float: left;
           display: block;
@@ -32,31 +32,35 @@
           text-decoration: none;
           font-size: 17px;
         }
-        
+
         .topnav a:hover {
           background-color: #ddd;
           color: black;
         }
-        
+
         .active {
           background-color: #196aff;
           color: white;
         }
-        
+
         .topnav .icon {
           display: none;
         }
-        
+
         @media screen and (max-width: 600px) {
-          .topnav a:not(:first-child) {display: none;}
+          .topnav a:not(:first-child) {
+            display: none;
+          }
           .topnav a.icon {
             float: right;
             display: block;
           }
         }
-        
+
         @media screen and (max-width: 600px) {
-          .topnav.responsive {position: relative;}
+          .topnav.responsive {
+            position: relative;
+          }
           .topnav.responsive .icon {
             position: absolute;
             right: 0;
@@ -68,32 +72,36 @@
             text-align: left;
           }
         }
-        
+
         * {
           box-sizing: border-box;
         }
-        
+
         /* Create three equal columns that floats next to each other */
+
         .column {
           float: left;
           width: 32.2%;
           padding: 10px;
-          height:70px;
+          height: 70px;
         }
-        
+
         .column2 {
           float: left;
           width: 50%;
           /*padding: 10px;*/
-          height: 300px; /* Should be removed. Only for demonstration */
+          height: 300px;
+          /* Should be removed. Only for demonstration */
         }
-        
+
         /* Clear floats after the columns */
+
         .row:after {
           content: "";
           display: table;
           clear: both;
         }
+
         .button {
           border-radius: 4px;
           background-color: #ea6c00;
@@ -107,14 +115,14 @@
           cursor: pointer;
           margin: 5px;
         }
-        
+
         .button span {
           cursor: pointer;
           display: inline-block;
           position: relative;
           transition: 0.5s;
         }
-        
+
         .button span:after {
           content: '\00bb';
           position: absolute;
@@ -123,12 +131,13 @@
           right: -20px;
           transition: 0.5s;
         }
-        
+
         .button:hover span {
           padding-right: 25px;
         }
-        
+
         .button:hover span:after {
           opacity: 1;
           right: 0;
         }
+        
