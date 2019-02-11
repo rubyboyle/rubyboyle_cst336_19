@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 20.2%;
+    padding: 10px;
+    height: 70px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    background-color: #002a4e;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 43px;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+a {
+    color: #4c6b83;
+}

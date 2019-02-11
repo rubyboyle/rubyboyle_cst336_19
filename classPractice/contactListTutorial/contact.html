@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact-list.css">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card card-default" id="card_contacts">
+            <div id="contacts" class="panel-collapse collapse show" aria-expanded="true" style="">
+                <ul class="list-group pull-down" id="contact-list">
+                    <script>
+                        var contacts = [{
+                            name: "Mike Anamendolla",
+                            address: "5842 Hillcrest Rd",
+                            email: "mike.ana@example.com",
+                            phone: "(870) 288-4149",
+                            pictureUrl: "http://demos.themes.guide/bodeo/assets/images/users/m101.jpg"
+                        }, {
+                            name: "Rosemary Porter",
+                            address: "5267 Cackson St",
+                            email: "rosemary.porter@example.com",
+                            phone: "(497) 160-9776",
+                            pictureUrl: "http://demos.themes.guide/bodeo/assets/images/users/w102.jpg"
+                        }, {
+                            name: "Debbie Schmidt",
+                            address: "3903 W Alexander Rd",
+                            email: "debbie.schmidt@example.com",
+                            phone: "(867) 322-1852",
+                            pictureUrl: "http://demos.themes.guide/bodeo/assets/images/users/w104.jpg"
+                        }];
+
+                        for (var c in contacts) {
+                            var contact = contacts[c];
+                            printContact(contact);
+                        }
+                    </script>
+                </ul>
+                <!--/contacts list-->
+            </div>
+        </div>
+        <!-- contacts card -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

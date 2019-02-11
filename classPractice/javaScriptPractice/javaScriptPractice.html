@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+    function addBorder(){
+        document.getElementById("myImage").style.border = "solid 1px red";
+    }
+    
+    function replaceHeaderContent(){
+    document.getElementById("headerContent").innerHTML = "Cool!";
+    }
+
+</script>
+</head>
+
+<body>
+    <main>
+ 
+    <h3 id="headerContent" onclick="addBorder()"> Click here to add a border to the image </h3>
+    <img id="myImage" onclick="replaceHeaderContent()" src="ruby.JPG" alt="ruby" />
+
+    </main>
+
+
+
+</body>
+
+</html>
