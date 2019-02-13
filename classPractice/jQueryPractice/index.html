@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!--everything in the head runs before ANYTHING in the body a div with the display of none-->
+<head> 
+    <title>jQuery</title>
+</head>
+
+<body>
+
+    <h2>jQuery</h2>
+    
+    <h2 id="weekday"> Weekdays: </h2>
+	<h3 class="smallFont"> Monday </h3>
+	<br>
+	<div id="box" style="width:100px; height:100px; background:red; position:absolute;">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+    /*global $*/
+        $("document").ready(function() {
+            //jQuery code will go here
+            console.log("running on ready");
+            $("h2").css("color","red"); //h2 is the selector, so retrieve all elements with the semantic tag h2
+            $("#weekday").css("color","red");
+            $(".smallFont").css("color","red");
+            $('#box').click ( function() { 
+                $('#box').animate({ left:'250px' });//default path is a straight line
+            });
+
+        });
+    </script>
+</body>
+
+</html>

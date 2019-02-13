@@ -1,18 +1,21 @@
 body{
     text-align:center;
-    background-image: url("../img/numbers_bg.jpg");
+    background-image: url("../img/numbers.jpg");
     background-size: cover;
 }
 
 .jumbotron {
-    background-color:#edf2f9;
+    background-color:#fef4f3;
 }
 
 #directions {
-    background-color:#edf2f9;
+    background-color:#fef4f3;
     font-size: 2em;    
     width:900px;
-    height:200px;
+    height:390px;
     margin:0 auto;
     border-radius:20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
 }
