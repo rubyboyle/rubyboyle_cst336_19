@@ -76,19 +76,53 @@
             $(document).ready(function() {
                 var modal = document.getElementById('myModal');
                 $('#myBtn').one("click", function(e) {
+                    
+                         function isFormValid() {
+                            let isValid = true;
+                            if ($("#fullName").val() == "") {
+                                isValid = false;
+                                $("#validSubmission").html("Error, please fill out your name.");
+                            }
+                            return isValid;
+                        }
+
+                        $("#validSubmission").html("");
+
+                        if (!isFormValid()) {
+                            //isFormValid == false;
+                            return;
+                        }
 
                     modal.style.display = "block";
 
                     var x = $('input[name=name]').val();
                     console.log(x);
 
-                    $("#thankYou").html("Thank you for your order " + x + "!");
+                    $("#thankYou").html("Thank you for your order " + x +"!");
                 });
                 $('.close').one("click", function() {
                     modal.style.display = "none";
+                    
                 });
+                
             });
-         
+
+            // function isFormValid() {
+            //     let isValid = true;
+            //     if ($("#fullName").val() == "") {
+            //         isValid = false;
+            //         $("#validSubmission").html("Error, please fill out your name.");
+            //     }
+            //     return isValid;
+            // }
+
+            // $("#validSubmission").html("");
+
+            // if (!isFormValid()) { 
+            //     isFormValid == false;
+            //     return;
+            // }
+
             /*global $*/
         </script>
 </body>
