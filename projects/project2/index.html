@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
-        <head>
-            <div id="wholepage">
-            <meta charset="utf-8" />
-            <title> Ecommerce Boot Sale </title>
-            
-              <style>
-                   @import url("css/styles.css");
-              </style>
-          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        </head>
-    <body>
-        
+
+<head>
+    <div id="wholepage">
+        <meta charset="utf-8" />
+        <title> Ecommerce Boot Sale </title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
     <div id="mainpage">
-        <img style = "float:left; height: 150px;" src="img/sole_mates_logo.png" alt="Boots promo pic"/>
-            <h1> Welcome to <br> sole mates</h1>
-            <div id="giveaway">
-                   <p>Get you first Sole on Us!</p>
-            </div>
-                <div class ="content">
-                
-                    <figure id= "boots">
-                        <img style = "float:left;" src="img/boots.jpg" alt="Boots promo pic"/>
-                    </figure>
-                    
-                </div>
-        <main>
-            
-        <div id="message">
-            <p>Thanks for shopping with us, <br>
-            enjoy your first shoe for free! </p>
+        <img style="float:left; height: 150px;" src="img/sole_mates_logo.png" alt="Boots promo pic" />
+        <h1> welcome to <br> sole mates</h1>
+        <div id="giveaway">
+            <p>Get you first Sole on Us!</p>
         </div>
-            
+        <div class="content">
+            <figure id="boots">
+                <img style="float:left;" src="img/boots.jpg" alt="Boots promo pic" />
+            </figure>
+        </div>
+        <main>
+
+            <div id="message">
+                <p>Thanks for shopping with us, <br> enjoy your first shoe for free! </p>
+            </div>
         </main>
-        <form id="infoForm" >  
-        
-        <div id="nameSize">
-            <p>Name: <input type="name" name ="name" id="fullName"size="25"height=40 /></p><br>
-            Gender:
-            <input type="checkbox" id="male"  name="gender">Male
-           
-             <input type="checkbox" id="female" name="gender">Female
-  
-             <br><br>
-             <p>Email: <input type="email" name ="email" id="email"size="25"height=40/></p>
-         
-            <br>
-            Address: <input type="address" name = "address" id="address" cols="25" rows="40"/><br><br>
-            
-            Choose Country: <select id="country" name="country">
-                <option  value="US">USA</option>
+        <form id="infoForm">
+            <div id="nameSize">
+                <p>Name: <input type="text" name="name" id="fullName" size="25" height=40 /> </p><br> Gender:
+                <input type="checkbox" id="male" name="gender">Male
+                <input type="checkbox" id="female" name="gender">Female
+
+                <br><br>
+                <p>Email: <input type="email" name="email" id="email" size="25" height=40/></p>
+
+                <br> Address: <input type="address" name="address" id="address" cols="25" rows="40" /><br><br> Choose Country: <select id="country" name="country">
+                <option value="US">USA</option>
                 <option value="ME">Mexico</option>
                 <option value="CN">Canada</option>
-                </select> <br><br>
                 
-            Type of boots: <br>
-            <input type="radio"  id="item1"  name="boot" value="OverTheKnee"> <label for="item1">Over the Knee</label> <br>
-            <input type="radio"  id="item2"  name="boot" value="Combat"><label for="item2">Combat</label><br>
-            <input type="radio"  id="item3"  name="boot" value="Chelsea"><label for="item3">Chelsea</label><br>
-          
-          
-         
-        </div>
+                
+                </select> <br><br> Type of boots: <br>
+                <input type="radio" id="item1" name="boot" value="OverTheKnee"> <label for="item1">Over the Knee</label> <br>
+                <input type="radio" id="item2" name="boot" value="Combat"><label for="item2">Combat</label><br>
+                <input type="radio" id="item3" name="boot" value="Chelsea"><label for="item3">Chelsea</label><br>
+
+                <h2 id="validSubmission"></h2>
+            </div>
+
         </form>
-    </body>
+
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Submit</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="thankYou"></p>
+            </div>
+
+        </div>
+
+        <script>
+            // Get the modal
+            $(document).ready(function() {
+                var modal = document.getElementById('myModal');
+                $('#myBtn').one("click", function(e) {
+
+                    modal.style.display = "block";
+
+                    var x = $('input[name=name]').val();
+                    console.log(x);
+
+                    $("#thankYou").html("Thank you for your order " + x + "!");
+                });
+                $('.close').one("click", function() {
+                    modal.style.display = "none";
+                });
+            });
+         
+            /*global $*/
+        </script>
+</body>
 </div>
+
 </html>
