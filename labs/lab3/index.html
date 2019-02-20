@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Art History Quiz </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Art History Quiz</h1>
+        
+        <h2><span id="markImg1"></span>What invention helped bring on the Impressionist movement?</h2>
+        
+        <input type = "text" id="q1">
+        <div id="q1_feedback">
+            
+        </div>
+        
+        <h2><span id="markImg2"></span>Which is a form of dry media?</h2>
+        <select id="q2">
+            <option value="">Select One</option>
+            <option>Oil paint</option>
+            <option>Graphite</option>
+            <option>Watercolor</option>
+            <option>Accrylic</option>
+        </select>
+        <div id="q2_feedback">
+        </div>
+            
+        
+        <h2><span id="markImg3"></span> What is NOT a visual element of art?</h2>
+        <input type="radio" name="q3" id="line" value="Line"><label for="line">Line </label>
+        <input type="radio" name="q3" id="texture" value="Texture"><label for="texture">Texture </label>
+        <input type="radio" name="q3" id="prints" value="Prints"><label for="prints">Prints </label>
+        <input type="radio" name="q3" id="shape" value="Shape"><label for="shape">Shape </label>
+        <div id ="q3_feedback"></div>
+        <br></br>
+        
+        <h2><span id="markImg4"></span>Check the 3 primary colors.</h2>
+        <input type="checkbox" id="Red"><label for="Red">Red</label>
+        <input type="checkbox" id="Yellow"><label for="Yellow">Yellow</label>
+        <input type="checkbox" id="Blue"><label for ="Blue">Blue</label>
+        <input type="checkbox" id="Green"><label for ="Green">Green</label>
+        <div id = "q4_feedback"></div>
+        
+        <h2><span id="markImg5"></span>What image is the "Persistence of Memory" by Salvador Dali?</h2>
+        <img src="img/img1.jpg" style="height:80px;" alt="Seal 1" class="active" id="seal1">
+        <img src="img/img2.jpg" style="height:80px;" alt="Seal 2" class="active" id="seal2">
+        <img src="img/img3.jpg" style="height:80px;" alt="Seal 3" class="active" id="seal3">
+        <div id = "q5_feedback"></div>
+        
+        <h2 id = "total"></h2>
+        <button id="submitButton"> Submit </button>
+        <h2 id="validSubmission"></h2>
+        <h2 id = "totalTimes"></h2>
+        <h3 id="prevScores"></h3>
+        <h3 id="highScore"></h3>
+    </body>
+    
+    <script>
+    /*global $*/
+    /*global localStorage $*/
+        let q1_value = 25;
+        let q2_value = 5;
+        let q3_value = 10;
+        let q4_value = 10;
+        let q5_value = 50;
+        
+        let q1_answer = "camera";
+        let q2_answer = "Graphite";
+        let q3_answer = "Prints";
+        let q5_answer = "seal2";
+        
+        let q5_response = "";
+        let totalTimes = localStorage.getItem("totalTimesTaken");
+        let scoresArray =  localStorage.getItem("scoreHistory");
+        if (scoresArray == null) {
+            scoresArray = [];
+        } else {
+            scoresArray = scoresArray.split(","); //creates array from a string
+        }
+        
+        $(".active").on( "click", function() {
+             $(".active").css("background","");
+             $(this).css("background","yellow");
+             //alert($(this).attr("id"));
+             q5_response = $(this).attr("id");
+        });
+        
+        function isFormValid(){
+            let isValid = true;
+            if ($("#q2").val() == "") {
+                isValid = false;
+                $("#validSubmission").html("Question 1 not answered");
+            }
+            return isValid;
+        }
+        
+        $("#submitButton").on( "click", function() {
+            
+            $("#validSubmission").html("");
+            
+            if (!isFormValid()) {   //isFormValid == false
+                return;
+            }
+            
+            let total_points = 0;
+            
+            let q1_response = $("#q1").val().toLowerCase();
+            let q2_response = $("#q2").val();
+            let q3_response = $("input[name=q3]:checked").val();
+            
+            //Question 1
+            if(q1_response == q1_answer) {
+                $("#q1_feedback").html("Correct!");
+                total_points += q1_value;
+                $("#markImg1").html("<img src ='img/checkMark.png' style='height:30px;' alt='check mark'>");
+                //alert(total_points);
+                $("#q1_feedback").attr("class", "correct");
+            }else {
+                $("#q1_feedback").html("Incorrect!");
+                $("#markImg1").html("<img src ='img/wrongMark.png' style='height:30px;' alt='wrong mark'>");
+                $("#q1_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 2
+            if (q2_response == q2_answer) {
+                $("#q2_feedback").html("Correct!");
+                total_points += q2_value;
+                $("#markImg2").html("<img src ='img/checkMark.png' style='height:30px;' alt='check mark'>");
+                $("#q2_feedback").attr("class", "correct");
+            }
+            else {
+                $("#q2_feedback").html("Incorrect!");
+                $("#markImg2").html("<img src ='img/wrongMark.png' style='height:30px;' alt='wrong mark'>");
+                $("#q2_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 3
+            if (q3_response == q3_answer) {
+                $("#q3_feedback").html("Correct!");
+                total_points += q3_value;
+                $("#markImg3").html("<img src ='img/checkMark.png' style='height:30px;' alt='check mark'>");
+                $("#q3_feedback").attr("class", "correct");
+            } else {
+                $("#q3_feedback").html("Incorrect!");
+                $("#markImg3").html("<img src ='img/wrongMark.png' style='height:30px;' alt='wrong mark'>");
+                $("#q3_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 4
+            if ($("#Blue").is(":checked") && !$("#Green").is(":checked") && $("#Red").is(":checked")&& $("#Yellow").is(":checked")){
+                $("#q4_feedback").html("Correct!");
+                total_points+=q4_value;
+                $("#markImg4").html("<img src ='img/checkMark.png' style='height:30px;' alt='check mark'>");
+                $("#q4_feedback").attr("class", "correct");
+            } else {
+                $("#q4_feedback").html("Incorrect!");
+                $("#markImg4").html("<img src ='img/wrongMark.png' style='height:30px;' alt='wrong mark'>");
+                $("#q4_feedback").attr("class", "incorrect");
+            }
+            
+            //Question 5
+            if (q5_response == q5_answer) {
+                $("#q5_feedback").html("Correct!");
+                total_points += q5_value;
+                $("#markImg5").html("<img src ='img/checkMark.png' style='height:30px;' alt='check mark'>");
+                $("#q5_feedback").attr("class", "correct");
+            } else {
+                $("#q5_feedback").html("Incorrect!");
+                $("#markImg5").html("<img src ='img/wrongMark.png' style='height:30px;' alt='wrong mark'>");
+                $("#q5_feedback").attr("class", "incorrect");
+            }
+                
+            //Totals    
+            $("#total").html("The total Score is: " + total_points);
+            totalTimes++;
+            localStorage.setItem("totalTimesTaken", totalTimes);
+            $("#totalTimes").html("Quiz taken: " + totalTimes + " time(s)");
+            scoresArray.push(total_points);
+            
+            if(total_points >= 90) { 
+                $("#highScore").html("Congrats on the high score!");
+            }
+            
+            $("#prevScores").html("Score History: ");
+            scoresArray.forEach(function(score){
+                $("#prevScores").append(score + " ");
+            });
+            
+            localStorage.setItem("scoreHistory",scoresArray);
+            
+        });
+    </script>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Earthquake Web API</title>
+  <script src="./Earthquake Web API_files/jquery-3.3.1.min.js.download"></script>
+</head>
+<body id="dummybodyid">
+  <header>
+    <h1>Earthquake Info</h1>
+  </header>
+
+  <form method="post">
+		<div><label>Start Time:</label><input type="text" id="starttime" value="2017-10-01"></div>
+		<div><label>End Time:</label><input type="text" id="endtime" value="2017-11-30"></div>
+		<div><label>Latitude:</label><input type="text" id="latitude" value="36.6"></div>
+		<div><label>Longitude:</label><input type="text" id="longitude" value="-121.9"></div>
+		<div><label>Max Radius:</label><input type="text" id="maxradius" value="10"></div>
+		<div><label>Magnitude (0 to 7):</label><input type="range" id="minmag" min="0" value="3" max="7"></div>
+	</form>
+
+  <div>
+    Change any value to update results.
+  </div>
+
+  <div id="earthquakeResult"></div>
+
+  <script>
+		$("input").change(getEarthquakes);
+
+  	function getEarthquakes() {        
+      $.ajax({
+          type: "get",
+          url: "http://earthquake.usgs.gov/fdsnws/event/1/query",
+          dataType: "json",
+          data: {
+            "format":"geojson",
+            "starttime":$("#starttime").val(),
+            "endtime"  :$("#endtime").val(),
+            "latitude" :$("#latitude").val(),
+            "longitude":$("#longitude").val(),
+            "maxradius":$("#maxradius").val(),
+            "minmag"   :$("#minmag").val()
+          },
+          success: function(data,status) {
+            $('#earthquakeResult').html(data["metadata"].title + "<br>");
+            for (var i=0; i < data['features'].length; i++ ) {
+              $('#earthquakeResult').append(data['features'][i]['properties']["mag"] + " - " + data['features'][i]['properties'].place  + "<br/>");
+            }
+          },
+          complete: function(data,status) { //optional, used for debugging purposes
+            //console.log(status);
+          }
+         });
+    }
+ 	</script>
+</body>
+</html>

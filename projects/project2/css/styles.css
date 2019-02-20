@@ -1,0 +1,104 @@
+main,body {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    width:1000px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    width:50%;
+    color: white;
+    text-align: left;
+    padding-left:50px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    width:50%;
+    text-align: left;
+}
+
+#promo {
+    font-size:3em;
+    color: white;
+}
+
+#submitButton {
+    position:absolute;
+    background-color: Transparent;
+    border:none;
+    outline:none;
+    color: white;
+    cursor:pointer;
+    font-size: 3em;
+    font-weight:bold;
+    left:335px;
+    top:380px;
+}
+
+#boots {
+    float:left;
+    text-align: center;
+    left:150px;
+    top:350px;
+}
+
+.pics {
+    text-align: left;
+}
+
+#text {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+#message {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+}
+
+#giveaway {
+    color: white;
+    font-size: 2em;
+}
+
+#mainpage {
+    padding: 20px; 
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #95b8e3;
+}
+
+#infoForm {
+    text-align: left;
+    height: 500px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nameSize {
+    font-size: 1.5em;    
+    text-align: left;
+}
+
+#input {
+    color:black;   
+    font-size: 1.3em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error {
+    color: #FF0000;
+}
+
+
+#thanku {
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #DF5342;
+    font-family: 'Roboto', sans-serif;
+}
+
+.correct {
+    color: green;
+    font-size: 18pt;
+}
+
+.incorrect {
+    color: red;
+    font-size: 18pt;
+}
+
+#submitButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

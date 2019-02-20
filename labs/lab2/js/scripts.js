@@ -25,7 +25,7 @@
       function checkGuess() {
         var userGuess = Number(guessField.value);
         if (guessCount === 1) {
-          guesses.innerHTML = 'Previous guesses: ';
+          
         }
         guesses.innerHTML += userGuess + ' ';
 

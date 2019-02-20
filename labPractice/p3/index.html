@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title> </title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        .playButton {
+          border: none;
+          background-color: green;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          display: inline-block;
+        }
+        .row {
+            
+        }
+    </style>
+</head>
+
+<body>
+   
+    <h1>Slot Machine</h1>
+    <!--<button class="playButton" onClick="displayImg()" >Play!</button>-->
+    <input type="button" onClick="displayImg()" value="Play">
+    <div class="row">
+    <div id="image1" name="canvas"></div>
+    <div id="image2" name="canvas"></div>
+    <div id="image3" name="canvas"></div>
+    </div>
+    
+    
+    <p class="winning"> Total Winnings:</p>
+    <p class="cherry"> </p>
+    <p class="grapes"> </p>
+    <p class="seven"> </p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+    /*global $*/
+    
+       // $("document").ready(function() {
+            //jQuery code will go here
+            let imageArray = ["cherry", "grapes", "seven"];
+            //let randomIndex = Math.floor(Math.random() * 3);
+            //let randomImage = imageArray[randomIndex];
+            //let randomImage = imageArray[randomIndex];
+            //     for(var i = 0; i <= imageArray.length; i++){
+            //          //$("#image1").html("<img src ='img/"+randomImage+".png' />");
+            // let randomIndex = Math.floor(Math.random() * imageArray.length+1);
+            // let randomImage = imageArray[randomIndex];
+            // $("#image1").html("<img src ='img/"+randomImage+".png' />");
+            // $("#image2").html("<img src ='img/"+randomImage+".png' />");
+            // $("#image3").html("<img src ='img/"+randomImage+".png' />");
+            //           //$("#image1").html("<img src ='img/"+randomImage+".png' />");
+                      
+            //     }
+                function displayImg(){
+                    var num = Math.floor(Math.random() * (imageArray.length));
+                    document.ready.src="img/"+imageArray[num];
+                }
+                
+            
+            var totalWinnings = 0;
+            
+            // $("#image1").html("<img src ='img/"+randomImage+".png' />");
+            // $("#image2").html("<img src ='img/"+randomImage+".png' />");
+            // $("#image3").html("<img src ='img/"+randomImage+".png' />");
+            
+            // if(randomImage == cherry && randomImage2 == cherry && randomImage3 == cherry){
+                
+            // }
+            
+     //   });
+    </script>
+</body>
+
+</html>
