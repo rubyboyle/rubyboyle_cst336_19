@@ -75,55 +75,39 @@
             // Get the modal
             $(document).ready(function() {
                 var modal = document.getElementById('myModal');
-                $('#myBtn').one("click", function(e) {
-                    
-                         function isFormValid() {
-                            let isValid = true;
-                            if ($("#fullName").val() == "") {
-                                isValid = false;
-                                $("#validSubmission").html("Error, please fill out your name.");
-                            }
-                            return isValid;
-                        }
-
-                        $("#validSubmission").html("");
-
-                        if (!isFormValid()) {
-                            //isFormValid == false;
-                            return;
-                        }
+                $('#myBtn ').one("click", function(e) {
+                
+                function isFormValid() {
+                    let isValid = true;
+                    if ($("#fullName").val() == "") {
+                        isValid = false;
+                        $("#validSubmission").html("Please refresh & fill out your name.");
+                    }
+                    return isValid;
+                }
+                
+                $("#validSubmission").html("");
+                
+                if (!isFormValid()) {
+                    //isFormValid == false;
+                    return;
+                }
 
                     modal.style.display = "block";
 
-                    var x = $('input[name=name]').val();
-                    console.log(x);
+                    var inputName = $('input[name=name]').val();
+                    //console.log(x);
 
-                    $("#thankYou").html("Thank you for your order " + x +"!");
+                    $("#thankYou").html("Thank you for your order " + inputName +"!");
                 });
+                
                 $('.close').one("click", function() {
                     modal.style.display = "none";
                     
                 });
-                
             });
 
-            // function isFormValid() {
-            //     let isValid = true;
-            //     if ($("#fullName").val() == "") {
-            //         isValid = false;
-            //         $("#validSubmission").html("Error, please fill out your name.");
-            //     }
-            //     return isValid;
-            // }
-
-            // $("#validSubmission").html("");
-
-            // if (!isFormValid()) { 
-            //     isFormValid == false;
-            //     return;
-            // }
-
-            /*global $*/
+           /*global $*/
         </script>
 </body>
 </div>
