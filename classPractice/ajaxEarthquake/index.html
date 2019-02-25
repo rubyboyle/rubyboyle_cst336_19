@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-    
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Earthquake Web API</title>
-  <script src="./Earthquake Web API_files/jquery-3.3.1.min.js.download"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </head>
 <body id="dummybodyid">
   <header>
@@ -27,12 +28,13 @@
   <div id="earthquakeResult"></div>
 
   <script>
+  /*global $*/
 		$("input").change(getEarthquakes);
 
   	function getEarthquakes() {        
       $.ajax({
           type: "get",
-          url: "http://earthquake.usgs.gov/fdsnws/event/1/query",
+          url: "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2018-03-01&endtime=2018-03-31&latitude=36.6&longitude=-121.9&maxradius=10&minmag=4",
           dataType: "json",
           data: {
             "format":"geojson",

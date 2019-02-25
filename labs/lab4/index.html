@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Sign Up Page </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    /*global $*/
+    // var isValid = true;
+    // function validateUsername() {
+    //   $("#usernameError").html("");
+    //   if($("#username").val.trim().length < 7) {
+    //     isValid = false;
+    //     $("#usernameError").html("Username must be at least 6 characters");
+    //   }
+    // }
+
+    $(document).ready(function() {
+
+      $("#state").on("change", function() {
+        //alert($("#state").val());
+
+        $.ajax({
+
+          type: "GET",
+          url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+          dataType: "json",
+          data: { "state": $("#state").val() },
+          success: function(data, status) {
+
+            //alert(data[0].county);
+            $("#county").html("<option> Select One </option>");
+            for (let i = 0; i < data.length; i++) {
+
+              $("#county").append("<option>" + data[i].county + "</option>");
+
+            }
+
+          },
+          // complete: function(data,status) { //optional, used for debugging purposes
+          //alert(status);
+          // }
+
+        }); //ajax
+
+
+      });
+
+
+      $("#zipCode").on("change", function() {
+
+        alert($("#zipCode").val());
+
+        $.ajax({
+          type: "GET",
+          url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+          dataType: "json",
+          data: { "zip": $("#zipCode").val() },
+          success: function(data, status) {
+            alert(data.city);
+            $("#city").html(data.city);
+            $("#latitude").html(data.latitude);
+            $("#longitude").html(data.longitude);
+          },
+          //complete: function(data,status) { //optional, used for debugging purposes
+          // alert(status);
+          // }
+
+        }); //ajax
+
+
+      }); //zipCode
+
+    }); //document.ready()
+  </script>
+
+</head>
+
+<body>
+
+  <!--<h1> Sign Up Form </h1>-->
+
+  <img src="images/logo_gxrl.png" style="height:100px;" id="logo">
+  <img src="images/backtoschool.JPG" style="height:520px;" id="pic">
+  <div id="container">
+    <!--<fieldset>-->
+    <legend>Sign Up: Back to School Deals</legend><br>
+    <!--First Name: -->
+    <input type="text" placeholder="first name">
+    <!--Last Name: -->
+    <input type="text" placeholder="last name"><br><br>
+    <!--Email: -->
+    <input type="text" placeholder="email">
+    <!--Phone Number:-->
+    <input type="text" placeholder="phone number">
+    <!--Zip Code: -->
+    <input type="text" id="zipCode" placeholder="zip code">
+    <span id="zipError"></span> 
+    City: <span id="city"></span>
+    <br> Latitude: <span id="latitude"></span>
+    Longitude: <span id="longitude"></span>
+    <br><br> State:
+    <select id="state">
+           <option> Select One </option> 
+           <option value="ca"> California </option>
+           <option value="ny"> New York </option>
+           <option value="tx"> Texas </option>
+        </select>
+    Select a County: <select id="county"></select><br> 
+    Desired Username: <input type="text" id="username"><br>
+    <span id="usernameError"></span> 
+    <!--Password: -->
+    <input type="text" placeholder="Password">
+    <!--Type Password Again: -->
+    <input type="text" placeholder="Password Verification"><br>
+    <br>
+    <input type="submit" value="Sign up!" class="submitButton">
+  </div>
+
+</body>
+
+</html>

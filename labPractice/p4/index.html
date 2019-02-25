@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        td {
+            border: 1px solid black;
+            /*padding: 3px;*/
+        }
+        
+        body {
+            text-align: center;
+        }
+        
+        table{
+            margin-left:auto;
+            margin-right:auto; 
+        }
+    </style>
+
+
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+
+
+<body>
+    <h1> Spring Break Shopping </h1>
+
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Unit <br> Price</th>
+            <th> Quantity </th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Microfiber Beach Towel</td>
+            <td>$30</td>
+            <td><input type="text" class="quantTowel" id="quantTowel" size="5"></td>
+            <!--price * quant total == towelTotal-->
+            <td id="towelTotal"></td>
+        </tr>
+
+        <tr>
+            <td>Sunscreen 100SPF, 120ml</td>
+            <td>$10</td>
+            <td><input type="text" id="quantSunscreen" size="5"></td>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Ipanema Flip-flop Sandals </td>
+            <td>$20</td>
+            <td><input type="text" id="quantSandals" size="5"></td>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Shipping</td>
+            <td></td>
+            <td></td>
+            <td id="shipping"></td>
+        </tr>
+
+        <tr>
+            <td>Subtotal</td>
+            <td></td>
+            <td></td>
+            <td id="subtotal"></td>
+        </tr>
+
+        <tr>
+            <td>Tax (10%)</td>
+            <td></td>
+            <td></td>
+            <td id="tax"></td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td id="total"></td>
+        </tr>
+
+    </table>
+
+    <h3>Shipping & Handling</h3>
+    <select id="shipping" class="required"> 
+        <option value"" id="selected">Select One</option>
+        <option value="15">Next-day Delivery: $15.00</option>
+         <option value="10">Three-day Delivery: $10.00</option>
+          <option value="5">Regular (5-8 days): $ 5.00</option>
+   
+    </select>
+    <br><br>
+
+    <span>I accept the terms of this purchase.</span>
+    <br>
+
+    <button>"CONFIRM PURCHASE"</button>
+    <script>
+        /*global $*/
+        $(document).ready(function() {
+            var towel = 30;
+            var sunscreen = 10;
+            var sandal = 20;
+            var quantity = 0;
+            // var quantTowel = document.getElementById("password").value;
+            var quantTowel = document.querySelector('#quantTowel');
+
+            var towelTotal = $(".towelTotal").val();
+         
+
+            // price * quant total == towelTotal
+            $(".quantTowel").change(function() {
+                // console.log("works");
+                quantTowel * towel == towelTotal;
+                $("#towelTotal").html(towelTotal);
+                // console.log("towels:",quantTowel);
+
+                alert("quanttowel:", quantTowel);
+            });
+
+            //error message
+            function error() {
+                var selected;
+                if (selected) {
+
+                }
+            }
+
+        });
+    </script>
+</body>
+
+</html>
