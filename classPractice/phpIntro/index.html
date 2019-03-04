@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+    /*global $*/
+        $(document).ready(function(e) {
+            $.ajax({
+                type: "get",
+                url: "/classPractice/phpIntro/index.php",
+                dataType: "json",
+                data: {},
+                success: function(data) {
+                    console.log(data);
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //console.log(status);
+                }
+            });
+        });
+
+        
+    </script>
+
+    </body>
+</html>

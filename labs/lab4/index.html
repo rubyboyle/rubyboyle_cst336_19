@@ -5,6 +5,8 @@
   <title> Sign Up Page </title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.js"></script>
+    <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.validate.js"></script>
   <link rel="stylesheet" href="styles.css">
 
   <script>
@@ -17,12 +19,26 @@
     //     $("#usernameError").html("Username must be at least 6 characters");
     //   }
     // }
+    
+    function invalidUsername() {
+    var notEmptyUserName = $('#userName').val();
+    if (notEmptyUserName != '') {
+        //addUserName();
+        $("#message").html("Username is available!").css("color", "green");
+    }
+    else {
+        $("#message").html("Username is not available!").css("color", "red");
 
+    }
+}
+
+
+    
     $(document).ready(function() {
 
-      $("#state").on("change", function() {
-        //alert($("#state").val());
 
+      $("#state").on("change", function() {
+       
         $.ajax({
 
           type: "GET",
@@ -40,10 +56,7 @@
             }
 
           },
-          // complete: function(data,status) { //optional, used for debugging purposes
-          //alert(status);
-          // }
-
+     
         }); //ajax
 
 
@@ -51,8 +64,10 @@
 
 
       $("#zipCode").on("change", function() {
-
-        alert($("#zipCode").val());
+      var zipInput = $('#zipCode').val();
+      if (zipInput == "") {
+        $('#zipError').html("Zip code could not be found!").css("color", "red");
+    } else {
 
         $.ajax({
           type: "GET",
@@ -60,21 +75,34 @@
           dataType: "json",
           data: { "zip": $("#zipCode").val() },
           success: function(data, status) {
-            alert(data.city);
+           // alert(data.city);
             $("#city").html(data.city);
             $("#latitude").html(data.latitude);
             $("#longitude").html(data.longitude);
           },
-          //complete: function(data,status) { //optional, used for debugging purposes
-          // alert(status);
-          // }
-
+          
+        
         }); //ajax
-
-
+        }
       }); //zipCode
 
+
+  //   function validacija() {
+
+  //   let user = document.getElementById('username');
+  //   let listNames = ["Tilen","Marko","Teja","Tisa","Rok","Luka","Mojca"];
+
+  //   for (let i = 0; i < listNames.length; i++) {
+  //     if (listNames[i] === user.value) {
+  //       alert('The name already exist');
+  //     }
+  //   }
+  //   return false;
+  // }
+  
     }); //document.ready()
+    
+
   </script>
 
 </head>
@@ -85,7 +113,7 @@
 
   <img src="images/logo_gxrl.png" style="height:100px;" id="logo">
   <img src="images/backtoschool.JPG" style="height:520px;" id="pic">
-  <div id="container">
+  <form id="container"onsubmit="return validacija()">
     <!--<fieldset>-->
     <legend>Sign Up: Back to School Deals</legend><br>
     <!--First Name: -->
@@ -113,13 +141,14 @@
     Desired Username: <input type="text" id="username"><br>
     <span id="usernameError"></span> 
     <!--Password: -->
-    <input type="text" placeholder="Password">
+    <input type="text" placeholder="Password" name="password" id="password">
     <!--Type Password Again: -->
-    <input type="text" placeholder="Password Verification"><br>
+    <input type="text" placeholder="Password Verification" name="confirmpassword" id="confirmpassword"><br>
     <br>
     <input type="submit" value="Sign up!" class="submitButton">
-  </div>
+  </form>
 
 </body>
 
 </html>
+
