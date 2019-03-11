@@ -5,8 +5,8 @@
   <title> Sign Up Page </title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.js"></script>
-    <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.validate.js"></script>
+  <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.js"></script>
+  <script type="text/javascript" src="http://www.technicalkeeda.com/js/javascripts/plugin/jquery.validate.js"></script>
   <link rel="stylesheet" href="styles.css">
 
   <script>
@@ -19,11 +19,11 @@
     //     $("#usernameError").html("Username must be at least 6 characters");
     //   }
     // }
-    
 
 
 
-    
+
+
     $(document).ready(function() {
       $("#state").on("change", function() {
         $.ajax({
@@ -45,73 +45,71 @@
 
 
       $("#zipCode").on("change", function() {
-      var zipInput = $('#zipCode').val();
-      if (zipInput == "") {
-        $('#zipError').html("Zip code could not be found!").css("color", "red");
-       } else {
-        $.ajax({
-          type: "GET",
-          url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
-          dataType: "json",
-          data: { "zip": $("#zipCode").val() },
-          success: function(data, status) {
-           // alert(data.city);
-            $("#city").html(data.city);
-            $("#latitude").html(data.latitude);
-            $("#longitude").html(data.longitude);
-          },
-        }); //ajax
+        var zipInput = $('#zipCode').val();
+        if (zipInput == "") {
+          $('#zipError').html("Zip code could not be found!").css("color", "red");
+        }
+        else {
+          $.ajax({
+            type: "GET",
+            url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+            dataType: "json",
+            data: { "zip": $("#zipCode").val() },
+            success: function(data, status) {
+              // alert(data.city);
+              $("#city").html(data.city);
+              $("#latitude").html(data.latitude);
+              $("#longitude").html(data.longitude);
+            },
+          }); //ajax
         }
       }); //zipCode
 
-         $("#username").change(function() {
-             $.ajax({
-                 type: "GET",
-                 url: "api/usernameChecker.php",
-                 dataType: "json",
-                 data: { "username": $("#username").val() },
-                 success: function(data, status) {
-                     if (data.available) {
-                         $("#usernameError").html("Username available!");
-                         $("#usernameError").css("color", "green");
-                     }
-                     else {
-                         $("#usernameError").html("Username not available!");
-                         $("#usernameError").css("color", "red");
-                     }
-                 },
-             }); //ajax  
-         });
+      $("#username").change(function() {
+        $.ajax({
+          type: "GET",
+          url: "api/usernameChecker.php",
+          dataType: "json",
+          data: { "username": $("#username").val() },
+          success: function(data, status) {
+            if (data.available) {
+              $("#usernameError").html("Username available!");
+              $("#usernameError").css("color", "green");
+            }
+            else {
+              $("#usernameError").html("Username not available!");
+              $("#usernameError").css("color", "red");
+            }
+          },
+        }); //ajax  
+      });
 
-         $("#password").on("change", function() {
-             $.ajax({
-                 type: "GET",
-                 url: "api/validatePwd.php",
-                 dataType: "json",
-                 data: {
-                     "confirmpassword": $("#confirmpassword").val(),
-                     "password": $("#password").val()
-                 },
-                 success: function(data, status) {
+      $("#password").on("change", function() {
+        $.ajax({
+          type: "GET",
+          url: "api/validatePwd.php",
+          dataType: "json",
+          data: {
+            "confirmpassword": $("#confirmpassword").val(),
+            "password": $("#password").val()
+          },
+          success: function(data, status) {
 
-                     //   alert(data);
-                     if (data.validPwd) {
-                         $("#passwordError").html("Password is valid!");
-                         $("#passwordError").css("color", "green");
-                     }
-                     else {
-                         $("#passwordError").html("Password does not match!");
-                         $("#passwordError").css("color", "red");
-                     }
-                 },
-             }); //ajax
-         }); //passwordClick 
-  
+            //   alert(data);
+            if (data.validPwd) {
+              $("#passwordError").html("Password is valid!");
+              $("#passwordError").css("color", "green");
+            }
+            else {
+              $("#passwordError").html("Password does not match!");
+              $("#passwordError").css("color", "red");
+            }
+          },
+        }); //ajax
+      }); //passwordClick 
+
     }); //document.ready()
-    
-
   </script>
-
 </head>
 
 <body>
@@ -120,7 +118,7 @@
 
   <img src="images/logo_gxrl.png" style="height:100px;" id="logo">
   <img src="images/backtoschool.JPG" style="height:520px;" id="pic">
-  <form id="container"onsubmit="return validacija()">
+  <form id="container" onsubmit="return validacija()">
     <!--<fieldset>-->
     <legend>Sign Up: Back to School Deals</legend><br>
     <!--First Name: -->
@@ -133,19 +131,15 @@
     <input type="text" placeholder="phone number">
     <!--Zip Code: -->
     <input type="text" id="zipCode" placeholder="zip code">
-    <span id="zipError"></span> 
-    City: <span id="city"></span>
-    <br> Latitude: <span id="latitude"></span>
-    Longitude: <span id="longitude"></span>
+    <span id="zipError"></span> City: <span id="city"></span>
+    <br> Latitude: <span id="latitude"></span> Longitude: <span id="longitude"></span>
     <br><br> State:
     <select id="state">
            <option> Select One </option> 
            <option value="ca"> California </option>
            <option value="ny"> New York </option>
            <option value="tx"> Texas </option>
-        </select>
-    Select a County: <select id="county"></select><br> 
-    Desired Username: <input type="text" id="username"><br>
+        </select> Select a County: <select id="county"></select><br> Desired Username: <input type="text" id="username"><br>
     <span id="usernameError"></span> <br>
     <!--Password: -->
     <input type="text" placeholder="Password" name="password" id="password">
@@ -159,4 +153,3 @@
 </body>
 
 </html>
-
