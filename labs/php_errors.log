@@ -1,0 +1,71 @@
+[06-Mar-2019 23:38:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/functions.php on line 9
+[06-Mar-2019 23:38:03 UTC] PHP Stack trace:
+[06-Mar-2019 23:38:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/functions.php:0
+[09-Mar-2019 19:07:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/functions.php on line 9
+[09-Mar-2019 19:07:30 UTC] PHP Stack trace:
+[09-Mar-2019 19:07:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[09-Mar-2019 19:07:30 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab5/index.php:3
+[09-Mar-2019 19:07:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/functions.php on line 9
+[09-Mar-2019 19:07:36 UTC] PHP Stack trace:
+[09-Mar-2019 19:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[09-Mar-2019 19:07:36 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/labs/lab5/index.php:3
+[09-Mar-2019 19:08:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 19:08:08 UTC] PHP Stack trace:
+[09-Mar-2019 19:08:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 19:08:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 19:08:25 UTC] PHP Stack trace:
+[09-Mar-2019 19:08:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 19:14:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 19:14:00 UTC] PHP Stack trace:
+[09-Mar-2019 19:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 19:16:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 19:16:28 UTC] PHP Stack trace:
+[09-Mar-2019 19:16:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 19:17:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 19:17:19 UTC] PHP Stack trace:
+[09-Mar-2019 19:17:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 21:04:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 21:04:39 UTC] PHP Stack trace:
+[09-Mar-2019 21:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 21:20:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 21:20:55 UTC] PHP Stack trace:
+[09-Mar-2019 21:20:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 21:22:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 21:22:42 UTC] PHP Stack trace:
+[09-Mar-2019 21:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 21:42:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 21:42:40 UTC] PHP Stack trace:
+[09-Mar-2019 21:42:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:40:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:40:16 UTC] PHP Stack trace:
+[09-Mar-2019 22:40:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:46:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:46:27 UTC] PHP Stack trace:
+[09-Mar-2019 22:46:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:48:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:48:40 UTC] PHP Stack trace:
+[09-Mar-2019 22:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:51:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:51:59 UTC] PHP Stack trace:
+[09-Mar-2019 22:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:52:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:52:19 UTC] PHP Stack trace:
+[09-Mar-2019 22:52:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:53:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:53:11 UTC] PHP Stack trace:
+[09-Mar-2019 22:53:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:53:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:53:49 UTC] PHP Stack trace:
+[09-Mar-2019 22:53:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 22:53:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 22:53:54 UTC] PHP Stack trace:
+[09-Mar-2019 22:53:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 23:16:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 23:16:29 UTC] PHP Stack trace:
+[09-Mar-2019 23:16:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 23:16:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 23:16:51 UTC] PHP Stack trace:
+[09-Mar-2019 23:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
+[09-Mar-2019 23:16:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php on line 10
+[09-Mar-2019 23:16:52 UTC] PHP Stack trace:
+[09-Mar-2019 23:16:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/usernameAPI.php:0
