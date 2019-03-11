@@ -20,27 +20,13 @@
     //   }
     // }
     
-    function invalidUsername() {
-    var notEmptyUserName = $('#userName').val();
-    if (notEmptyUserName != '') {
-        //addUserName();
-        $("#message").html("Username is available!").css("color", "green");
-    }
-    else {
-        $("#message").html("Username is not available!").css("color", "red");
 
-    }
-}
 
 
     
     $(document).ready(function() {
-
-
       $("#state").on("change", function() {
-       
         $.ajax({
-
           type: "GET",
           url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
           dataType: "json",
@@ -52,14 +38,9 @@
             for (let i = 0; i < data.length; i++) {
 
               $("#county").append("<option>" + data[i].county + "</option>");
-
             }
-
           },
-     
         }); //ajax
-
-
       });
 
 
@@ -67,8 +48,7 @@
       var zipInput = $('#zipCode').val();
       if (zipInput == "") {
         $('#zipError').html("Zip code could not be found!").css("color", "red");
-    } else {
-
+       } else {
         $.ajax({
           type: "GET",
           url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
@@ -80,25 +60,52 @@
             $("#latitude").html(data.latitude);
             $("#longitude").html(data.longitude);
           },
-          
-        
         }); //ajax
         }
       }); //zipCode
 
+         $("#username").change(function() {
+             $.ajax({
+                 type: "GET",
+                 url: "api/usernameChecker.php",
+                 dataType: "json",
+                 data: { "username": $("#username").val() },
+                 success: function(data, status) {
+                     if (data.available) {
+                         $("#usernameError").html("Username available!");
+                         $("#usernameError").css("color", "green");
+                     }
+                     else {
+                         $("#usernameError").html("Username not available!");
+                         $("#usernameError").css("color", "red");
+                     }
+                 },
+             }); //ajax  
+         });
 
-  //   function validacija() {
+         $("#password").on("change", function() {
+             $.ajax({
+                 type: "GET",
+                 url: "api/validatePwd.php",
+                 dataType: "json",
+                 data: {
+                     "confirmpassword": $("#confirmpassword").val(),
+                     "password": $("#password").val()
+                 },
+                 success: function(data, status) {
 
-  //   let user = document.getElementById('username');
-  //   let listNames = ["Tilen","Marko","Teja","Tisa","Rok","Luka","Mojca"];
-
-  //   for (let i = 0; i < listNames.length; i++) {
-  //     if (listNames[i] === user.value) {
-  //       alert('The name already exist');
-  //     }
-  //   }
-  //   return false;
-  // }
+                     //   alert(data);
+                     if (data.validPwd) {
+                         $("#passwordError").html("Password is valid!");
+                         $("#passwordError").css("color", "green");
+                     }
+                     else {
+                         $("#passwordError").html("Password does not match!");
+                         $("#passwordError").css("color", "red");
+                     }
+                 },
+             }); //ajax
+         }); //passwordClick 
   
     }); //document.ready()
     
@@ -139,12 +146,13 @@
         </select>
     Select a County: <select id="county"></select><br> 
     Desired Username: <input type="text" id="username"><br>
-    <span id="usernameError"></span> 
+    <span id="usernameError"></span> <br>
     <!--Password: -->
     <input type="text" placeholder="Password" name="password" id="password">
     <!--Type Password Again: -->
     <input type="text" placeholder="Password Verification" name="confirmpassword" id="confirmpassword"><br>
     <br>
+    <span id="passwordError"></span> <br>
     <input type="submit" value="Sign up!" class="submitButton">
   </form>
 
