@@ -1,6 +1,6 @@
 <?php
     include 'inc/dbConnection.php';
-    
+    $conn = getDatabaseConnection("ottermart");
     $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
     
     $stmt = $conn->prepare($sql);

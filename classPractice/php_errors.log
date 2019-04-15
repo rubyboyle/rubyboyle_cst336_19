@@ -1,0 +1,9 @@
+[25-Mar-2019 21:12:40 UTC] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/classPractice/authentication/login.php on line 13
+[25-Mar-2019 21:12:40 UTC] PHP Stack trace:
+[25-Mar-2019 21:12:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/classPractice/authentication/login.php:0
+[25-Mar-2019 21:12:40 UTC] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/classPractice/authentication/login.php on line 13
+[25-Mar-2019 21:12:40 UTC] PHP Stack trace:
+[25-Mar-2019 21:12:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/classPractice/authentication/login.php:0
+[25-Mar-2019 21:12:40 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/cst336/classPractice/authentication/login.php on line 19
+[25-Mar-2019 21:12:40 UTC] PHP Stack trace:
+[25-Mar-2019 21:12:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/classPractice/authentication/login.php:0

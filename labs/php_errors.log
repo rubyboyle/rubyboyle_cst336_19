@@ -1,0 +1,1 @@
+[10-Apr-2019 21:58:59 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 61

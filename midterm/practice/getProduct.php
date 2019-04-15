@@ -1,7 +1,7 @@
 <?php
     include 'inc/dbConnection.php';
-    
-    $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
+    $conn = getDatabaseConnection("midterm");
+    $sql = "SELECT * FROM mp_product ORDER BY productName";
     
     $stmt = $conn->prepare($sql);
     $stmt->execute();

@@ -1,0 +1,88 @@
+[27-Mar-2019 21:16:59 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:16:59 UTC] PHP Stack trace:
+[27-Mar-2019 21:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:16:59 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:16:59 UTC] PHP Stack trace:
+[27-Mar-2019 21:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:16:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:16:59 UTC] PHP Stack trace:
+[27-Mar-2019 21:16:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:04 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:17:04 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:04 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:17:04 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:17:04 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:17 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:17:17 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:17 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:17:17 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:17:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:17:17 UTC] PHP Stack trace:
+[27-Mar-2019 21:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:02 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:02 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:02 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:02 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:18:02 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:33 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:33 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:33 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:33 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:18:33 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:34 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:34 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:34 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:34 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:18:34 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:47 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:47 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:47 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 2
+[27-Mar-2019 21:18:47 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 21:18:47 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php on line 3
+[27-Mar-2019 21:18:47 UTC] PHP Stack trace:
+[27-Mar-2019 21:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/midterm/api/getRandomBio.php:0
+[27-Mar-2019 22:11:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.users' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php on line 15
+[27-Mar-2019 22:11:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.users' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php on line 15
+[27-Mar-2019 22:11:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.users' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php on line 15
+[27-Mar-2019 22:11:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.users' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php on line 15
+[27-Mar-2019 22:12:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cinder.users' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php(15): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/midterm/api/getInfo.php on line 15
