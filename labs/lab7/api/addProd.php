@@ -11,7 +11,7 @@
     $arr[":productPrice"] = $_GET["productPrice"];
     $arr[":catId"] = $_GET["catId"];
   
-   $sql = "INSERT INTO om_product ( `productName`, `productDescription`, `productImage`, `productPrice`, `catId`) 
+    $sql = "INSERT INTO om_product ( `productName`, `productDescription`, `productImage`, `productPrice`, `catId`) 
     VALUES (:productName, :productDescription, :productImage, :productPrice, :catId)";
    
     $stmt = $conn->prepare($sql);
@@ -21,5 +21,7 @@
     $stmt->execute();
     $records = $stmt->fetch(PDO::FETCH_ASSOC);
     echo json_encode($records);
+    
+    
     
     ?>

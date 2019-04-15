@@ -1,0 +1,17 @@
+.main{
+      width:80%;
+      font-size: 20px;
+      margin: auto;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+}
+.allForm{
+    display: none
+}
+.button {
+    margin-top: 16px;
+    width: 200px;   
+}
