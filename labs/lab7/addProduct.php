@@ -1,70 +1,76 @@
 <?php
 session_start();
 
-//checks whether user has logged in
-if (!isset($_SESSION['adminName'])) {
+include 'inc/dbConnection.php';
+$dbConn = startConnection("ottermart");
+include 'inc/functions.php';
+validateSession();
+
+if (isset($_GET['addProduct'])) { //checks whether the form was submitted
     
-    header('location: loginProcess.php'); //sends users to login screen if they haven't logged in
+    $productName = $_GET['productName'];
+    $description =  $_GET['description'];
+    $price =  $_GET['price'];
+    $catId =  $_GET['catId'];
+    $image = $_GET['productImage'];
+    
+    
+    $sql = "INSERT INTO om_product (productName, productDescription, productImage,price, catId) 
+            VALUES (:productName, :productDescription, :productImage, :price, :catId);";
+    $np = array();
+    $np[":productName"] = $productName;
+    $np[":productDescription"] = $description;
+    $np[":productImage"] = $image;
+    $np[":price"] = $price;
+    $np[":catId"] = $catId;
+    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($np);
+    echo "New Product was added!";
     
 }
 
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <title> Admin Section: Add New Product </title>
+                <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--<link rel="stylesheet" href="styles.css">-->
     </head>
+    <style type="text/css">
+        .h1, .form{
+            text-align: center;
+        }
+    </style>
     <body>
         
-        <h1>Add new product</h1>
-        Enter Product Name:<input type="text" id = "productName" size="50">
-        <br>
-        Enter Product Description: <textarea id="productDescription" cols="40" rows="3"></textarea>
-        <br>
-        Product Image:<input type = "text" id = "productImage">
-        <br/>
-        Product Price: <input type="text" id="productPrice">
-        <br/>
-        Categories Name: <Select id = "catId">
-        <Option> Select One </Option>
-        </Select><br>
+        <h1> Adding New Product </h1>
         
-        <button id="submitButton">Add Product</button>
-        <span id="totalProducts"></span>
+        <form>
+           Product name: <input type="text" name="productName"><br>
+           Description: <textarea name="description" cols="50" rows="4"></textarea><br>
+           Price: <input type="text" name="price"><br>
+           Category: 
+           <select name="catId">
+              <option value="">Select One</option>
+              <?php
+              
+              $categories = getCategories();
+              
+              foreach ($categories as $category) {
+                  
+                  echo "<option value='".$category['catId']."'>" . $category['catName'] . "</option>";
+                  
+              }
+              
+              ?>
+           </select> <br />
+           Set Image Url: <input type="text" name="productImage"><br>
+           <input type="submit" name="addProduct" value="Add Product">
+        </form>
+
     </body>
-    
-    <script>
-    /*global $*/
-        $.ajax({
-                    type: "GET",
-                    url: "api/getCategories.php",
-                    dataType: "json",
-                    success: function(data, status) {
-                        data.forEach(function(key) {
-                            $("#catId").append("<option value=" + key["catId"] + ">" + key["catName"] + "</option>");
-                        });
-                    }
-                }); 
-                
-        $("#submitButton").on("click", function(){
-                   alert("test");
-                   $.ajax({
-                    type: "GET",
-                    url: "api/addProd.php",
-                    dataType: "json",
-                    data : {"productName": $("#productName").val(),
-                        "productDescription": $("#productDescription").val(),
-                        "productImage": $("#productImage").val(),
-                        "productPrice": $("#productPrice").val(),
-                        "catId": $("#catId").val()
-                        
-                    },
-                    success: function(data, status) {
-                        $("#totalProducts").html(data.totalproducts + " Products");
-                    }
-                }); 
-        });
-    </script>
 </html>

@@ -1,10 +1,10 @@
 <?php
     session_start();
     
-     include 'api/inc/dbConnection.php';
-     $dbConn = startConnection("ottermart");
-     include 'inc/functions.php';
-    // validateSession();
+    include 'inc/dbConnection.php';
+    $dbConn = startConnection("ottermart");
+    include 'inc/functions.php';
+    validateSession();
     
     
     if (isset($_GET['updateProduct'])){  //user has submitted update form
@@ -92,3 +92,4 @@
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>
+

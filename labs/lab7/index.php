@@ -1,3 +1,30 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--    <head>-->
+<!--        <title> Admin Login </title>-->
+<!--    </head>-->
+<!--    <body>-->
+
+<!--        <h1 style="text-decoration: none;"> Ottermart</h1>-->
+<!--        <h2 style="text-decoration: none;">Administrator Login</h2>-->
+        
+<!--        <form method="post" action="loginProcess.php" style="text-decoration: none;">-->
+<!--          Username:  <input type="text" name="username" style="text-decoration: none;"/> <br><br>-->
+<!--          Password:  <input type="password" name="password" style="text-decoration: none;"/> <br><br>-->
+<!--          <input type="submit" value="Login" style="background-color: #4CAF50; /* Green */-->
+<!--                                                    border: none;-->
+<!--                                                    color: white;-->
+<!--                                                    padding: 15px 32px;-->
+<!--                                                    text-align: center;-->
+<!--                                                    text-decoration: none;-->
+<!--                                                    display: inline-block;-->
+<!--                                                    font-size: 16px;">-->
+<!--        </form>-->
+
+<!--    </body>-->
+    
+<!--</html>-->
+
 <!DOCTYPE html>
 <html>
     <head>
