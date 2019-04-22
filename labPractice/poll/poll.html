@@ -28,7 +28,10 @@
 
         //Here is an example call to display the chart
         //You may need to parse to int if using strings
+        $("button").click(function(){
         displayPollChart(parseInt("10"),20,30,40,50);
+        });
+        
 
         // option1 to option5 must be integers, represent the total users who selected each option
         //*******
@@ -82,7 +85,26 @@
                     }, ]
                 }]
             });
-        } //endFunction</script>
+        } //endFunction
+        /*global $*/
+        $.ajax({
+            type: "get",
+            url: "inc/functions.php",
+            dataType: "json",
+            data: { "userChoice": choice,
+                    "pollId": qId
+            },
+            success: function(data, status) {
+                console.log(data);
+                displayPollChart(parseInt(data.option1),
+                parseInt(data.option2), parseInt(data.option3),
+                parseInt(data.option4), parseInt(data.option5));
+            },
+            complete: function(data, status) {
+                
+            }
+        })
+        </script>
 </body>
 
 </html>
