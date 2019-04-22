@@ -13,11 +13,7 @@ validateSession();
 <html>
     <head>
         <title> Admin Main Page </title>
-        <style>
-            form {
-                display: inline-block;
-            }
-        </style>
+     
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
                 <link rel="stylesheet" href="styles.css">
         <script>
@@ -40,7 +36,7 @@ validateSession();
     </head>
     <body>
         
-        <h1> Administrator of Ottermart</h1>
+        <h2> Administrator of Ottermart</h2>
         
           <form action="addProduct.php">
               <input class="login100-form-btn" type="submit" value="Add New Product">
@@ -54,9 +50,9 @@ validateSession();
         <?= displayAllProducts() ?>
         
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">-->
+<!--  Launch demo modal-->
+<!--</button>-->
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

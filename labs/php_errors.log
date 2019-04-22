@@ -90,3 +90,4 @@
 [15-Apr-2019 22:59:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/labs/lab_7/addProduct.php on line 5
 [15-Apr-2019 22:59:26 UTC] PHP Stack trace:
 [15-Apr-2019 22:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab_7/addProduct.php:0
+[17-Apr-2019 22:36:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab8/index.php on line 111
