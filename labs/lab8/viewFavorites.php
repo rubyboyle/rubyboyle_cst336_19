@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Favorite Images </title>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <link rel="stylesheet" href="css/styles.css" type="text/css" />
     </head>
     <body>
 
@@ -14,6 +15,13 @@
             <th></th>
         </table>
         
+        <a href="index.php" class="cta">
+        	<span>Back to Search</span>
+        	<svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </a>
         <script>
     /*global $*/
      $(document).ready(function(){
