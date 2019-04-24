@@ -1,0 +1,103 @@
+[24-Apr-2019 04:34:01 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 04:34:01 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 04:34:01 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 04:34:01 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 04:34:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 5
+[24-Apr-2019 04:34:01 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 04:34:31 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 04:34:31 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 04:34:31 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 04:34:31 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 04:34:31 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 5
+[24-Apr-2019 04:34:31 UTC] PHP Stack trace:
+[24-Apr-2019 04:34:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:43:50 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:43:50 UTC] PHP Stack trace:
+[24-Apr-2019 06:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:43:50 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:43:50 UTC] PHP Stack trace:
+[24-Apr-2019 06:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:43:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 5
+[24-Apr-2019 06:43:50 UTC] PHP Stack trace:
+[24-Apr-2019 06:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:20 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:45:20 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:20 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:45:20 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 5
+[24-Apr-2019 06:45:20 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:37 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:45:37 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:37 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 4
+[24-Apr-2019 06:45:37 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:45:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 5
+[24-Apr-2019 06:45:37 UTC] PHP Stack trace:
+[24-Apr-2019 06:45:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:46:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 31
+[24-Apr-2019 06:46:19 UTC] PHP Stack trace:
+[24-Apr-2019 06:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:0
+[24-Apr-2019 06:47:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:30:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:30:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:30:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:33:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:43:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:43:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:44:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 07:44:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 15:32:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32
+[24-Apr-2019 15:32:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/api/favs.php on line 32

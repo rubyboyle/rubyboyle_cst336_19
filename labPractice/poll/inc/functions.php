@@ -3,7 +3,7 @@
 include 'dbConnection.php';
 
 function updatePoll() {
-    $db = getConnection();
+    $db = getDatabaseConnection();
     
     $choice = $_GET['userChoice'];
     $pollId = $_GET['pollId'];
