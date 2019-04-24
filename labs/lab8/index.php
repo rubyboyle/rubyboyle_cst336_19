@@ -72,32 +72,21 @@
     
         function updateFavorites(action,favorite) {
                 $.ajax({
-                    type: "get",
+                    type: "GET",
                     url: "api/favs.php",
                     dataType: "json",
                     data: {
                       "action": action,
                       "favorite": favorite,
-                      "keyword": $("#keyword").val()
+                    //   "keyword": $("#keyword").val()
                     },
                     success: function(data, status) {
+                        alert("Yes");
                     },
                   });//ajax
             }
     });//documentReady
     
-         $(document).on('click','.favorite',function(){
-                $.ajax({
-                    type:"POST",
-                    url:"api/favs.php",
-                    dataType: "json",
-                    data :{
-                        "keyword": $("[name=keyword").val(),
-                        "imageId": $(this).attr("id"),
-                        "imageUrl": $(this).attr("value"),
-                    }
-                });
-            });
 
 </script>
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
@@ -110,8 +99,12 @@
         <input type="text" id="keyword" name="keyword" placeholder="Search"/> 
         <div class="after"></div><br><br><br><br>
         
-        <a class="btn-liquid">
-        		<span  onclick="searchImage()" type="submit" name="submitBtn" class="inner">Search</span>
+        <a class="cta" onclick="searchImage()" type="submit" name="submitBtn">
+        		<span>Search</span>
+        		  <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                  </svg>
         </a>
         </form>
                    
@@ -119,9 +112,15 @@
         
         <div id="images"></div>
         
-        <form action="viewFavorites.php">
-            <button href="viewFavorites.php"> View Favorites </button>
-        </form>
+        
+        <a href="viewFavorites.php" class="cta">
+        	<span>View Favorites</span>
+        	<svg width="13px" height="10px" viewBox="0 0 13 10">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+        </a>
+
     
     
     <script src="functions.js"></script>

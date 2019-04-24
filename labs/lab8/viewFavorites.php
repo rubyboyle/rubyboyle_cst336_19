@@ -19,7 +19,7 @@
      $(document).ready(function(){
        $.ajax({
             type:"GET",
-            url: "api/favs.php",
+            url: "api/getFavorites.php",
             dataType: "json",
             success:function(data,status){
                 data.forEach(function(key){
