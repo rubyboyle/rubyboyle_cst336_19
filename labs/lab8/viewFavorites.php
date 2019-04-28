@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Favorite Images </title>
+        <title>Favorite Images</title>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
          <link rel="stylesheet" href="css/styles.css" type="text/css" />
     </head>
@@ -10,9 +10,7 @@
         <h1> Favorite Images </h1>
         
         <table id="results">
-            <th></th>
-            <th></th>
-            <th></th>
+  
         </table>
         
         <a href="index.php" class="cta">

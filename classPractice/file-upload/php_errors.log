@@ -1,0 +1,24 @@
+[22-Apr-2019 21:19:32 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.bad.php on line 7
+[22-Apr-2019 21:22:48 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php on line 26
+[22-Apr-2019 21:22:48 UTC] PHP Stack trace:
+[22-Apr-2019 21:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:0
+[22-Apr-2019 21:22:48 UTC] PHP   2. reArrayFiles() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:5
+[22-Apr-2019 21:22:48 UTC] PHP   3. array_keys() /home/ubuntu/workspace/examples/file-upload/ajax-post/uploadFile.php:26
+[24-Apr-2019 21:34:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/examples/file-upload/form/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:34:14 UTC] PHP Stack trace:
+[24-Apr-2019 21:34:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0
+[24-Apr-2019 21:34:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/examples/file-upload/form/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:34:14 UTC] PHP Stack trace:
+[24-Apr-2019 21:34:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0
+[24-Apr-2019 21:35:05 UTC] PHP Warning:  require(/home/ubuntu/workspace/examples/file-upload/form../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:35:05 UTC] PHP Stack trace:
+[24-Apr-2019 21:35:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0
+[24-Apr-2019 21:35:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/examples/file-upload/form../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:35:05 UTC] PHP Stack trace:
+[24-Apr-2019 21:35:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0
+[24-Apr-2019 21:35:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/examples/file-upload/form../../../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:35:14 UTC] PHP Stack trace:
+[24-Apr-2019 21:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0
+[24-Apr-2019 21:35:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/examples/file-upload/form../../../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php on line 2
+[24-Apr-2019 21:35:14 UTC] PHP Stack trace:
+[24-Apr-2019 21:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/examples/file-upload/form/uploadFile.php:0

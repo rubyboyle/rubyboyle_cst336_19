@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+</head>
+
+<body>
+    <form method="POST" action="uploadFile.php" enctype="multipart/form-data">
+        <!--Use multiple attribute and array for input name-->
+        Select file: <input type="file" multiple name="fileName[]" /> <br />
+        <input type="submit" name="uploadForm" value="Upload File" />
+    </form>
+</body>
+
+</html>
