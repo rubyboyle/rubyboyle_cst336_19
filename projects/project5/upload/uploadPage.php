@@ -50,7 +50,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-left">
 					<div class="w3layouts-logo">
 						<h1>
-							<a href="index.html">Venue</a>
+							<a href="index.html">B+W</a>
 						</h1>
 					</div>
 				</div>
@@ -71,9 +71,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a class="active" href="index.html">Home</a></li>
-									<li><a href="upload.php">Upload</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="index.html">Home</a></li>
+									<li><a class="active" href="uploadPage.php">Upload</a></li>
+									<li><a href="gallery.php">Gallery</a></li>
 								</ul>	
 								<div class="clearfix"> </div>
 							</div>	
@@ -83,22 +83,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //banner -->
-
-    
-		<form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
-			<div id="drop">
-				Drop Here
-
-				<a>Browse</a>
-				<input type="file" name="upl" multiple />
-			</div>
-
-			<ul>
-				<!-- The file uploads will be shown here -->
-			</ul>
-
-		</form>
-
+ <form action="uploadFile.php" method="post" enctype="multipart/form-data">
+    Select Image File to Upload:
+    <input type="file" name="image">
+    <input type="submit" name="submit" value="UPLOAD">
+</form>
 
 
 	<!-- footer -->
@@ -106,7 +95,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		<div class="w3_agileits_footer_copy">
 			<div class="container">
-				<p>© 2017 Venue. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
+				<p>© 2019 B + W All rights reserved | Design by Ruby Boyle</p>
 			</div>
 		</div>
 	</div>

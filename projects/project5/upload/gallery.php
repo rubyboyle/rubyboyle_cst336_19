@@ -49,7 +49,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="header-left">
 					<div class="w3layouts-logo">
 						<h1>
-							<a href="index.html">Venue</a>
+							<a href="index.html">B+W</a>
 						</h1>
 					</div>
 				</div>
@@ -70,9 +70,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a class="active" href="index.html">Home</a></li>
-									<li><a href="upload.php">Upload</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="uploadPage.php">Upload</a></li>
+									<li><a class="active" href="gallery.php">Gallery</a></li>
 								</ul>	
 								<div class="clearfix"> </div>
 							</div>	

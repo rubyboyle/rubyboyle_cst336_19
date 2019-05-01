@@ -1,0 +1,53 @@
+[29-Apr-2019 21:01:28 UTC] PHP Warning:  move_uploaded_file(uploads/signup-image.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 15
+[29-Apr-2019 21:01:28 UTC] PHP Stack trace:
+[29-Apr-2019 21:01:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
+[29-Apr-2019 21:01:28 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:15
+[29-Apr-2019 21:01:28 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXcZ963' to 'uploads/signup-image.jpg' in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 15
+[29-Apr-2019 21:01:28 UTC] PHP Stack trace:
+[29-Apr-2019 21:01:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
+[29-Apr-2019 21:01:28 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:15
+[29-Apr-2019 22:36:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 4
+[29-Apr-2019 22:36:03 UTC] PHP Stack trace:
+[29-Apr-2019 22:36:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:36:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 41
+[29-Apr-2019 22:39:06 UTC] PHP Warning:  move_uploaded_file(uploads/signup-image.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:39:06 UTC] PHP Stack trace:
+[29-Apr-2019 22:39:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:39:06 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:39:06 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php8nK7dw' to 'uploads/signup-image.jpg' in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:39:06 UTC] PHP Stack trace:
+[29-Apr-2019 22:39:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:39:06 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:41:44 UTC] PHP Warning:  move_uploaded_file(uploads/signup-image.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:41:44 UTC] PHP Stack trace:
+[29-Apr-2019 22:41:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:41:44 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:41:44 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php119Eru' to 'uploads/signup-image.jpg' in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:41:44 UTC] PHP Stack trace:
+[29-Apr-2019 22:41:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:41:44 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:42:55 UTC] PHP Warning:  move_uploaded_file(uploads/signup-image.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:42:55 UTC] PHP Stack trace:
+[29-Apr-2019 22:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:42:55 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:42:55 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphqOFJQ' to 'uploads/signup-image.jpg' in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:42:55 UTC] PHP Stack trace:
+[29-Apr-2019 22:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:42:55 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:45:59 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/ubuntu/workspace/cst336/projects/project5/upload/dbConnection.php on line 33
+[29-Apr-2019 22:45:59 UTC] PHP Stack trace:
+[29-Apr-2019 22:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:45:59 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:3
+[29-Apr-2019 22:45:59 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/cst336/projects/project5/upload/dbConnection.php:33
+[29-Apr-2019 22:46:21 UTC] PHP Warning:  move_uploaded_file(uploads/signup-image.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:46:21 UTC] PHP Stack trace:
+[29-Apr-2019 22:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:46:21 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[29-Apr-2019 22:46:21 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplu8e6S' to 'uploads/signup-image.jpg' in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 18
+[29-Apr-2019 22:46:21 UTC] PHP Stack trace:
+[29-Apr-2019 22:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[29-Apr-2019 22:46:21 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
