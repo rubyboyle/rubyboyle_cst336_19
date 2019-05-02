@@ -10,8 +10,7 @@ try {
           //echo "Error: " . $file["error"] . "<br>";
         }
         else {
-            include 'dbConnection.php';
-            // $dbConn = getDatabaseConnection("just_bits");
+            include 'dbConn.php';
             
             $binaryData = file_get_contents($file["tmp_name"]);
             $sql = "INSERT INTO bit_storage (name, content_type, bits ) " .
@@ -47,4 +46,3 @@ function reArrayFiles(&$file_post) {
     return $file_ary;
 }
 ?>
-

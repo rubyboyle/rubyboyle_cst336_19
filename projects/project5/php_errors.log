@@ -51,3 +51,239 @@ Stack trace:
 [29-Apr-2019 22:46:21 UTC] PHP Stack trace:
 [29-Apr-2019 22:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
 [29-Apr-2019 22:46:21 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:18
+[02-May-2019 00:00:07 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 39
+[02-May-2019 00:00:07 UTC] PHP Stack trace:
+[02-May-2019 00:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[02-May-2019 00:00:07 UTC] PHP   2. reArrayFiles() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:3
+[02-May-2019 00:00:07 UTC] PHP   3. array_keys() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:39
+[02-May-2019 00:02:39 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:02:39 UTC] PHP Stack trace:
+[02-May-2019 00:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:02:39 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:02:39 UTC] PHP Stack trace:
+[02-May-2019 00:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:02:39 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:02:39 UTC] PHP Stack trace:
+[02-May-2019 00:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:41 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:04:41 UTC] PHP Stack trace:
+[02-May-2019 00:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:41 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:04:41 UTC] PHP Stack trace:
+[02-May-2019 00:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:04:41 UTC] PHP Stack trace:
+[02-May-2019 00:04:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:43 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:04:43 UTC] PHP Stack trace:
+[02-May-2019 00:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:43 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:04:43 UTC] PHP Stack trace:
+[02-May-2019 00:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:04:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:04:43 UTC] PHP Stack trace:
+[02-May-2019 00:04:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:06:35 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:06:35 UTC] PHP Stack trace:
+[02-May-2019 00:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:06:35 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:06:35 UTC] PHP Stack trace:
+[02-May-2019 00:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:06:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:06:35 UTC] PHP Stack trace:
+[02-May-2019 00:06:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:14:15 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:14:15 UTC] PHP Stack trace:
+[02-May-2019 00:14:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:14:15 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:14:15 UTC] PHP Stack trace:
+[02-May-2019 00:14:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:14:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:14:15 UTC] PHP Stack trace:
+[02-May-2019 00:14:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:17:54 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:17:54 UTC] PHP Stack trace:
+[02-May-2019 00:17:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:17:54 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:17:54 UTC] PHP Stack trace:
+[02-May-2019 00:17:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:17:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:17:54 UTC] PHP Stack trace:
+[02-May-2019 00:17:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:31:39 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:31:39 UTC] PHP Stack trace:
+[02-May-2019 00:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:31:39 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:31:39 UTC] PHP Stack trace:
+[02-May-2019 00:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:31:39 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:31:39 UTC] PHP Stack trace:
+[02-May-2019 00:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:07 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:07 UTC] PHP Stack trace:
+[02-May-2019 00:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:07 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:07 UTC] PHP Stack trace:
+[02-May-2019 00:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:32:07 UTC] PHP Stack trace:
+[02-May-2019 00:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:11 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:11 UTC] PHP Stack trace:
+[02-May-2019 00:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:11 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:11 UTC] PHP Stack trace:
+[02-May-2019 00:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:32:11 UTC] PHP Stack trace:
+[02-May-2019 00:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:56 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:56 UTC] PHP Stack trace:
+[02-May-2019 00:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:56 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:32:56 UTC] PHP Stack trace:
+[02-May-2019 00:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:32:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:32:56 UTC] PHP Stack trace:
+[02-May-2019 00:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:27 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:33:27 UTC] PHP Stack trace:
+[02-May-2019 00:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:27 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:33:27 UTC] PHP Stack trace:
+[02-May-2019 00:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:33:27 UTC] PHP Stack trace:
+[02-May-2019 00:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:30 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:33:30 UTC] PHP Stack trace:
+[02-May-2019 00:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:30 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 00:33:30 UTC] PHP Stack trace:
+[02-May-2019 00:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 00:33:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 00:33:30 UTC] PHP Stack trace:
+[02-May-2019 00:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 03:56:24 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 03:56:24 UTC] PHP Stack trace:
+[02-May-2019 03:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 03:56:24 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 03:56:24 UTC] PHP Stack trace:
+[02-May-2019 03:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 03:56:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 03:56:24 UTC] PHP Stack trace:
+[02-May-2019 03:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:01:28 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:01:28 UTC] PHP Stack trace:
+[02-May-2019 04:01:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:01:28 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:01:28 UTC] PHP Stack trace:
+[02-May-2019 04:01:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:01:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 4
+[02-May-2019 04:01:28 UTC] PHP Stack trace:
+[02-May-2019 04:01:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:18 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:15:18 UTC] PHP Stack trace:
+[02-May-2019 04:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:18 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:15:18 UTC] PHP Stack trace:
+[02-May-2019 04:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:18 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:15:18 UTC] PHP Stack trace:
+[02-May-2019 04:15:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:28 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:15:28 UTC] PHP Stack trace:
+[02-May-2019 04:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:28 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:15:28 UTC] PHP Stack trace:
+[02-May-2019 04:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:15:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:15:28 UTC] PHP Stack trace:
+[02-May-2019 04:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:16:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php on line 19
+[02-May-2019 04:16:29 UTC] PHP Stack trace:
+[02-May-2019 04:16:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/uploadFile.php:0
+[02-May-2019 04:19:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 18
+[02-May-2019 04:19:55 UTC] PHP Stack trace:
+[02-May-2019 04:19:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
+[02-May-2019 04:21:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 18
+[02-May-2019 04:21:26 UTC] PHP Stack trace:
+[02-May-2019 04:21:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:14 UTC] PHP Stack trace:
+[02-May-2019 04:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(dbConnnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Warning:  include(): Failed opening 'dbConnnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 3
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:23 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php on line 7
+[02-May-2019 04:22:23 UTC] PHP Stack trace:
+[02-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/bits.php:0
+[02-May-2019 04:22:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 18
+[02-May-2019 04:22:31 UTC] PHP Stack trace:
+[02-May-2019 04:22:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
+[02-May-2019 04:23:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php on line 18
+[02-May-2019 04:23:48 UTC] PHP Stack trace:
+[02-May-2019 04:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/projects/project5/upload/upload.php:0
