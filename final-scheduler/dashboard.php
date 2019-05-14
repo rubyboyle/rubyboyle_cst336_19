@@ -53,7 +53,7 @@ if (isset($_GET['addAppointment'])) { //checks whether the form was submitted
     </head>
     <body>
         <form action="php/logout.php">
-              <input class="login100-form-btn" type="submit" value="Logout">
+              <input class="login100-form-btn"type="submit" value="Logout">
         </form>
 
         <!--later replace this with an Ajax call to the API I created-->
@@ -144,7 +144,7 @@ if (isset($_GET['addAppointment'])) { //checks whether the form was submitted
                                                             "<td id = 'start-column'>" + key.start_time + "</td>"+
                                                             "<td id = 'start-column'>" + key.end_time + "</td>"+
                                                             "<td id = 'start-column'>" + key.booked_by + "</td>"+
-                                                            "<td id = 'details-column'><a onclick='openModal()' target='productModal' class='btn btn-primary' role='button' href='php/appointment-info.php?productId="+ key.id +"'>Details</a></td>" +
+                                                            "<td id = 'details-column'><a onclick='openModal()' target='productModal' class='btn btn-primary' role='button'>Details</a></td>" +
                                                             "<td id = 'details-column'><form action='inc/delete-appointment.php' onsubmit='return confirmDelete()'>" +
                                                             "<input type='hidden' name='id' value='"+ key.id +"'>" +
                                                             "<button class='btn btn-outline-danger' id='delete-app' type='submit'>Delete</button>" +
