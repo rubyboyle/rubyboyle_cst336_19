@@ -99,6 +99,11 @@
     <td style="text-align:left">You correctly implement booking of the appointement, including all side effects</td>
     <td style="text-align:left">0</td>
     </tr>
+    <tr>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">EC TOTAL</td>
+    <td style="text-align:left">118</td>
+    </tr>
     </tbody>
     </table>
     </body>

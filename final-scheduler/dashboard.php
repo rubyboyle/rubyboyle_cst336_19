@@ -55,7 +55,8 @@ if (isset($_GET['addAppointment'])) { //checks whether the form was submitted
         <form action="php/logout.php">
               <input class="login100-form-btn"type="submit" value="Logout">
         </form>
-
+        <br><br>
+      Invite Link:<input type="text"><br><br>
         <!--later replace this with an Ajax call to the API I created-->
         
         <table class="table table-hover">
@@ -67,12 +68,12 @@ if (isset($_GET['addAppointment'])) { //checks whether the form was submitted
               <th scope="col">Booked By</th> 
               <th><a href="#" class="add-appointment">Add Appointment</a></th>
             </tr>
+            <tr id=results>
+            </tr>
           </thead>
-          <tbody>
-          <tr id=results>
-          </tr>
-          <tbody>
        </table>
+  
+        
         
         <!-- Modal -->
         <div class="modal fade" id="add-appointment-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -128,19 +129,26 @@ if (isset($_GET['addAppointment'])) { //checks whether the form was submitted
                         url: "inc/get-appointment-api.php",
                         dataType: "json",
                         success: function(data, status) {
-                                  // $("#results").html("<table class='table table-hover'>") +
-                                  // $("#results").html("<thead>") +
-                                  // $("#results").html("<tr>") +
-                                  // $("#results").html("<th scope='col'>Date</th>") +
-                                  // $("#results").html("<th scope='col'>Start Time</th>") +
-                                  // $("#results").html("<th scope='col'>Duration</th>") +
-                                  // $("#results").html("<th scope='col'>Booked By</th>") +
-                                  // $("#results").html("</tr>") +
-                                  // $("#results").html("</thead>") +
+                                  // $("#results").html("<tr>");
+                                  // $("#results").html("<th scope='col'>Date</th>");
+                                  // $("#results").html("<th scope='col'>Start Time</th>");
+                                  // $("#results").html("<th scope='col'>Duration</th>");
+                                  // $("#results").html("<th scope='col'>Booked By</th>");
+                                  // $("#results").html("<th><a href="#" class="add-appointment">Add Appointment</a></th>");
+                                  // $("#results").html("</tr>");
+                                  // $("#results").html("<thead>");
+                                  // $("#results").html("<tr>");
+                                  // $("#results").html("<th scope='col'>Date</th>");
+                                  // $("#results").html("<th scope='col'>Start Time</th>");
+                                  // $("#results").html("<th scope='col'>Duration</th>") ;
+                                  // $("#results").html("<th scope='col'>Booked By</th>") ;
+                                  // $("#results").html("<th><a href='#' class='add-appointment'>Add Appointment</a></th>");
+                                  // $("#results").html("</tr>") ;
+                                  // $("#results").html("</thead>") ;
                                   // $("#results").html("<tbody>"); 
                             data.forEach(function(key) {
                                        $("#results").append("<tr>"+
-                                                            "<td id = 'date-column'>" + key.date + "</td>"+
+                                                            "<td id = 'scope='row'>" + key.date + "</td>"+
                                                             "<td id = 'start-column'>" + key.start_time + "</td>"+
                                                             "<td id = 'start-column'>" + key.end_time + "</td>"+
                                                             "<td id = 'start-column'>" + key.booked_by + "</td>"+
