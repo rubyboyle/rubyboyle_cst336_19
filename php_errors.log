@@ -1,0 +1,115 @@
+[11-May-2019 05:57:24 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 89
+[11-May-2019 05:57:24 UTC] PHP Stack trace:
+[11-May-2019 05:57:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:24 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/cst336/final-scheduler/login.php:89
+[11-May-2019 05:57:24 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 132
+[11-May-2019 05:57:24 UTC] PHP Stack trace:
+[11-May-2019 05:57:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:24 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/cst336/final-scheduler/login.php:132
+[11-May-2019 05:57:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 136
+[11-May-2019 05:57:24 UTC] PHP Stack trace:
+[11-May-2019 05:57:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:24 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/cst336/final-scheduler/login.php:136
+[11-May-2019 05:57:31 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 89
+[11-May-2019 05:57:31 UTC] PHP Stack trace:
+[11-May-2019 05:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:31 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/cst336/final-scheduler/login.php:89
+[11-May-2019 05:57:31 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 132
+[11-May-2019 05:57:31 UTC] PHP Stack trace:
+[11-May-2019 05:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:31 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/cst336/final-scheduler/login.php:132
+[11-May-2019 05:57:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 136
+[11-May-2019 05:57:31 UTC] PHP Stack trace:
+[11-May-2019 05:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/login.php:0
+[11-May-2019 05:57:31 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/cst336/final-scheduler/login.php:136
+[11-May-2019 06:05:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 148
+[11-May-2019 06:08:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/final-scheduler/login.php on line 57
+[11-May-2019 06:32:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 7
+[11-May-2019 06:32:29 UTC] PHP Stack trace:
+[11-May-2019 06:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:32:29 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:31
+[11-May-2019 06:34:29 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 2
+[11-May-2019 06:34:29 UTC] PHP Stack trace:
+[11-May-2019 06:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:34:29 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 2
+[11-May-2019 06:34:29 UTC] PHP Stack trace:
+[11-May-2019 06:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:34:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 6
+[11-May-2019 06:34:29 UTC] PHP Stack trace:
+[11-May-2019 06:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:34:29 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:13
+[11-May-2019 06:34:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 6
+[11-May-2019 06:34:53 UTC] PHP Stack trace:
+[11-May-2019 06:34:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:34:53 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:13
+[11-May-2019 06:48:21 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 4
+[11-May-2019 06:48:21 UTC] PHP Stack trace:
+[11-May-2019 06:48:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:52:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 15
+[11-May-2019 06:52:55 UTC] PHP Stack trace:
+[11-May-2019 06:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:52:55 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:33
+[11-May-2019 06:53:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 15
+[11-May-2019 06:53:37 UTC] PHP Stack trace:
+[11-May-2019 06:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:53:37 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:33
+[11-May-2019 06:54:47 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php:2) in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php on line 2
+[11-May-2019 06:54:47 UTC] PHP Stack trace:
+[11-May-2019 06:54:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:54:47 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:3
+[11-May-2019 06:55:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 14
+[11-May-2019 06:55:10 UTC] PHP Stack trace:
+[11-May-2019 06:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[11-May-2019 06:55:10 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:33
+[11-May-2019 18:57:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created' in 'where clause'' in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php(17): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php(47): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 17
+[11-May-2019 18:59:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'today' in 'where clause'' in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php(47): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 19
+[11-May-2019 19:53:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php(54): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php(9): getProductInfo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 54
+[11-May-2019 19:54:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php(54): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php(9): getProductInfo(NULL)
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 54
+[12-May-2019 00:38:40 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php:2) in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php on line 2
+[12-May-2019 00:38:40 UTC] PHP Stack trace:
+[12-May-2019 00:38:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[12-May-2019 00:38:40 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:3
+[12-May-2019 00:38:58 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php:2) in /home/ubuntu/workspace/cst336/final-scheduler/inc/db-connection.php on line 2
+[12-May-2019 00:38:58 UTC] PHP Stack trace:
+[12-May-2019 00:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[12-May-2019 00:38:58 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:3
+[12-May-2019 00:39:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 17
+[12-May-2019 00:39:43 UTC] PHP Stack trace:
+[12-May-2019 00:39:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[12-May-2019 00:39:43 UTC] PHP   2. displayAllAppointments() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:39
+[12-May-2019 00:44:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/functions.php on line 17
+[12-May-2019 00:44:11 UTC] PHP Stack trace:
+[12-May-2019 00:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[12-May-2019 00:44:11 UTC] PHP   2. displayAllAppointments() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:39
+[12-May-2019 00:55:43 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 33
+[12-May-2019 00:55:43 UTC] PHP Stack trace:
+[12-May-2019 00:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[13-May-2019 23:36:05 UTC] PHP Warning:  include(db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 4
+[13-May-2019 23:36:05 UTC] PHP Stack trace:
+[13-May-2019 23:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[13-May-2019 23:36:05 UTC] PHP Warning:  include(): Failed opening 'db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 4
+[13-May-2019 23:36:05 UTC] PHP Stack trace:
+[13-May-2019 23:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0
+[13-May-2019 23:36:05 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php on line 5
+[13-May-2019 23:36:05 UTC] PHP Stack trace:
+[13-May-2019 23:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/dashboard.php:0

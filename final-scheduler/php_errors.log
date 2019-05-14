@@ -1,0 +1,160 @@
+[11-May-2019 05:43:45 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 4
+[11-May-2019 05:43:45 UTC] PHP Stack trace:
+[11-May-2019 05:43:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 05:43:45 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 4
+[11-May-2019 05:43:45 UTC] PHP Stack trace:
+[11-May-2019 05:43:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 05:43:45 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 5
+[11-May-2019 05:43:45 UTC] PHP Stack trace:
+[11-May-2019 05:43:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 05:44:11 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 4
+[11-May-2019 05:44:11 UTC] PHP Stack trace:
+[11-May-2019 05:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 05:44:11 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 4
+[11-May-2019 05:44:11 UTC] PHP Stack trace:
+[11-May-2019 05:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 05:44:11 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php on line 5
+[11-May-2019 05:44:11 UTC] PHP Stack trace:
+[11-May-2019 05:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/php/login-validation.php:0
+[11-May-2019 20:00:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 11
+[11-May-2019 20:01:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 11
+[11-May-2019 20:02:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 11
+[11-May-2019 23:56:14 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php on line 76
+[11-May-2019 23:56:14 UTC] PHP Stack trace:
+[11-May-2019 23:56:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php:0
+[12-May-2019 00:06:37 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php on line 78
+[12-May-2019 00:06:37 UTC] PHP Stack trace:
+[12-May-2019 00:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php:0
+[12-May-2019 00:07:10 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php on line 78
+[12-May-2019 00:07:10 UTC] PHP Stack trace:
+[12-May-2019 00:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/add-appointment.php:0
+[12-May-2019 04:07:31 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:07:31 UTC] PHP Stack trace:
+[12-May-2019 04:07:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:07:31 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:07:31 UTC] PHP Stack trace:
+[12-May-2019 04:07:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:07:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 6
+[12-May-2019 04:07:31 UTC] PHP Stack trace:
+[12-May-2019 04:07:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:51 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:16:51 UTC] PHP Stack trace:
+[12-May-2019 04:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:51 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:16:51 UTC] PHP Stack trace:
+[12-May-2019 04:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 6
+[12-May-2019 04:16:51 UTC] PHP Stack trace:
+[12-May-2019 04:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:55 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:16:55 UTC] PHP Stack trace:
+[12-May-2019 04:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:55 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 2
+[12-May-2019 04:16:55 UTC] PHP Stack trace:
+[12-May-2019 04:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[12-May-2019 04:16:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 6
+[12-May-2019 04:16:55 UTC] PHP Stack trace:
+[12-May-2019 04:16:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:55 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:55 UTC] PHP Stack trace:
+[13-May-2019 20:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:55 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:55 UTC] PHP Stack trace:
+[13-May-2019 20:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 7
+[13-May-2019 20:42:55 UTC] PHP Stack trace:
+[13-May-2019 20:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:57 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:57 UTC] PHP Stack trace:
+[13-May-2019 20:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:57 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:57 UTC] PHP Stack trace:
+[13-May-2019 20:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 7
+[13-May-2019 20:42:57 UTC] PHP Stack trace:
+[13-May-2019 20:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:59 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:59 UTC] PHP Stack trace:
+[13-May-2019 20:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:59 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:42:59 UTC] PHP Stack trace:
+[13-May-2019 20:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:42:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 7
+[13-May-2019 20:42:59 UTC] PHP Stack trace:
+[13-May-2019 20:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:43:10 UTC] PHP Warning:  include(inc/db-connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:43:10 UTC] PHP Stack trace:
+[13-May-2019 20:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:43:10 UTC] PHP Warning:  include(): Failed opening 'inc/db-connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 3
+[13-May-2019 20:43:10 UTC] PHP Stack trace:
+[13-May-2019 20:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:43:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 7
+[13-May-2019 20:43:10 UTC] PHP Stack trace:
+[13-May-2019 20:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:43:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 7
+[13-May-2019 20:43:48 UTC] PHP Stack trace:
+[13-May-2019 20:43:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 20:45:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 8
+[13-May-2019 20:45:28 UTC] PHP Stack trace:
+[13-May-2019 20:45:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 23:53:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 9
+[13-May-2019 23:53:24 UTC] PHP Stack trace:
+[13-May-2019 23:53:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 23:53:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 9
+[13-May-2019 23:53:30 UTC] PHP Stack trace:
+[13-May-2019 23:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[13-May-2019 23:53:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php on line 9
+[13-May-2019 23:53:37 UTC] PHP Stack trace:
+[13-May-2019 23:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final-scheduler/inc/get-appointment-api.php:0
+[14-May-2019 00:11:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:12:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:17:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:33:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:35:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:37:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:39:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10
+[14-May-2019 00:40:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'delete-app' at line 1' in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/final-scheduler/inc/delete-appointment.php on line 10

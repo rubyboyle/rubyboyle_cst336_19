@@ -23,10 +23,7 @@ function displayAllProducts(){
         echo "   <button class='btn btn-outline-danger' type='submit'>Delete</button>";
         echo "</form>";
         
-        echo "[<a 
-        
-        onclick='openModal()' target='productModal'
-        href='productInfo.php?productId=".$record['productId']."'>".$record['productName']."</a>]  ";
+        echo "[<a onclick='openModal()' target='productModal' href='productInfo.php?productId=".$record['productId']."'>".$record['productName']."</a>]  ";
         echo " $" . $record[price]   . "<br><br>";
         
     }

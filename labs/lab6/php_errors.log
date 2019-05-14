@@ -1,0 +1,12 @@
+[12-May-2019 02:56:08 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php on line 6
+[12-May-2019 02:56:08 UTC] PHP Stack trace:
+[12-May-2019 02:56:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php:0
+[12-May-2019 04:22:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php on line 6
+[12-May-2019 04:22:48 UTC] PHP Stack trace:
+[12-May-2019 04:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php:0
+[12-May-2019 04:23:11 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php on line 6
+[12-May-2019 04:23:11 UTC] PHP Stack trace:
+[12-May-2019 04:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php:0
+[13-May-2019 20:31:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php on line 6
+[13-May-2019 20:31:33 UTC] PHP Stack trace:
+[13-May-2019 20:31:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/API/getCategories.php:0
